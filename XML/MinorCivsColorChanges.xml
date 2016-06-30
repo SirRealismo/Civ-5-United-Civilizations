@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/25/2013 6:41:58 PM -->
+<GameData>
+	<Update>
+		<!--Cascadia-->
+		<Set DefaultPlayerColor ="PLAYERCOLOR_MIDDLE_GREEN"/>
+		<Where Type="MINOR_CIV_VANCOUVER"/>
+	</Update>
+	<Update>
+		<!--Nigeria-->
+		<Set DefaultPlayerColor ="PLAYERCOLOR_MIDDLE_GREEN"/>
+		<Where Type="MINOR_CIV_IFE"/>
+	</Update>
+  
+</GameData>

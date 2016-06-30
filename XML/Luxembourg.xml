@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2010 2:52:04 PM -->
+<GameData>
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_LUXEMBOURG</Type>
+			<Description>TXT_KEY_CITYSTATE_LUXEMBOURG</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_LUXEMBOURG</ShortDescription>
+			<Adjective>Luxembourgish</Adjective>
+			<Civilopedia>No info</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_LUXEMBOURG</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_LUXEMBOURG</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_LUXEMBOURG_ADJ">
+			<Text>Luxembourg</Text>
+		</Row>
+	</Language_en_US>
+	
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_LUXEMBOURG</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LUXEMBOURG</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LUXEMBOURG</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LUXEMBOURG</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+</GameData>

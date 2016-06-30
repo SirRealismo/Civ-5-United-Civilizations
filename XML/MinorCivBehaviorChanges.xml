@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/30/2013 11:32:30 PM -->
+<GameData>
+	<AIEconomicStrategies>
+		<Update>
+			<Where Type="ECONOMICAISTATEGY_FOUND_CITY"/>
+			<Set NoMinorCivs="false"/>
+		</Update>
+		
+		<!--<Update>
+			<Where Type="ECONOMICAISTATEGY_FOUND_CITY"/>
+			<Set AdvisorCounselImportance="3"/>
+		</Update>-->
+	<Update>
+		<Where Type="ECONOMICAISTRATEGY_EARLY_EXPANSION"/>
+		<Set NoMinorCivs="false"/>
+	</Update>
+		<Update>
+			<Where Type="ECONOMICAISTATEGY_EARLY_EXPANSION"/>
+			<Set AdvisorCounselImportance="3"/>
+		</Update>
+		<Update>
+			<Where Type="AICITYSTRATEGY_CAPITAL_NEED_SETTLER"/>
+			<Set NoMinorCivs="false"/>
+		</Update>
+		<!--<Update>
+			<Where Type="AICITYSTRATEGY_CAPITAL_NEED_SETTLER"/>
+			<Set AdvisorCounselImportance="3"/>
+		</Update>-->
+	</AIEconomicStrategies>
+	
+</GameData>

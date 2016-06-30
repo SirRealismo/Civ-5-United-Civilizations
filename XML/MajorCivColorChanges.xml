@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2013 3:53:59 PM -->
+<GameData>
+	<Colors>
+		
+		<Update>
+			<Set Green="1"/>
+			<Where Type="COLOR_PLAYER_LIGHT_GREEN"/>
+		</Update>
+		<Update>
+			<Set Red="0.1"/>
+			<Where Type="COLOR_PLAYER_LIGHT_GREEN"/>
+		</Update>
+		<Update>
+			<Set Blue="0"/>
+			<Where Type="COLOR_PLAYER_LIGHT_GREEN"/>
+		</Update>
+		<Update>
+			<Set Red="0.4"/>
+			<Where Type="COLOR_PLAYER_AUSTRIA_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Green="0.5"/>
+			<Where Type="COLOR_PLAYER_NETHERLANDS_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Green="0.1"/>
+			<Where Type="COLOR_PLAYER_CHINA_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Blue="0"/>
+			<Where Type="COLOR_PLAYER_CHINA_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Red="1"/>
+			<Where Type="COLOR_PLAYER_CHINA_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Green="0.2"/>
+			<Where Type="COLOR_PLAYER_MAYA_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Blue="0.8"/>
+			<Where Type="COLOR_PLAYER_MAYA_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Red="0.7"/>
+			<Where Type="COLOR_PLAYER_MAYA_BACKGROUND"/>
+		</Update>
+		<Update>
+			<Set Red="0.2"/>
+			<Where Type="COLOR_PLAYER_BROWN"/>
+		</Update>
+		<Update>
+			<Set Green="0.12"/>
+			<Where Type="COLOR_PLAYER_BROWN"/>
+		</Update>
+		<Update>
+			<Set Red="0.17"/>
+			<Where Type="COLOR_PLAYER_DARK_GRAY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Green="0.17"/>
+			<Where Type="COLOR_PLAYER_DARK_GRAY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Blue="0.17"/>
+			<Where Type="COLOR_PLAYER_DARK_GRAY_TEXT"/>
+		</Update>
+		<Update>
+			<Set Red="0.8"/>
+			<Where Type="COLOR_PLAYER_ASSYRIA_ICON"/>
+		</Update>
+		
+	</Colors>
+	<Defines>
+		<Update>
+		<Set Value="4000"/>
+		<Where Name="AI_STRATEGY_MINIMUM_SETTLE_FERTILITY"/>
+		</Update>
+	</Defines>
+</GameData>

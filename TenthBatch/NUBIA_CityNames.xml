@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_NUBIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_NUBIA_CITYTHREE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NUBIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_NUBIA_CAPITAL</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NUBIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_NUBIA_CITYTWO</CityName>
+		</Row>
+		<Delete CityName="TXT_KEY_CITYSTATE_NUBIA" />
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_NUBIA_CAPITAL">
+			<Text>Meroe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_NUBIA_CITYTHREE">
+			<Text>*Kerma*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_NUBIA_CITYTWO">
+			<Text>Pachoras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_NUBIA">
+			<Text>Nubia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

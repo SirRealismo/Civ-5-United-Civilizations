@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_CIRCASSIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CIRCASSIA_CITYTHREE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CIRCASSIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CIRCASSIA_CAPITAL</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CIRCASSIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CIRCASSIA_CITYTWO</CityName>
+		</Row>
+		<Delete CityName="TXT_KEY_CITYSTATE_CIRCASSIA" />
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_CIRCASSIA_CAPITAL">
+			<Text>Maikop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CIRCASSIA_CITYTHREE">
+			<Text>*Sochi*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CIRCASSIA_CITYTWO">
+			<Text>Anapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CIRCASSIA">
+			<Text>Circassia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

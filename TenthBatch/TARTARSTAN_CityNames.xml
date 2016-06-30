@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_TARTARSTAN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_TARTARSTAN_CITYTHREE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TARTARSTAN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_TARTARSTAN_CAPITAL</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TARTARSTAN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_TARTARSTAN_CITYTWO</CityName>
+		</Row>
+		<Delete CityName="TXT_KEY_CITYSTATE_TARTARSTAN" />
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_TARTARSTAN_CAPITAL">
+			<Text>Almetyevsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TARTARSTAN_CITYTHREE">
+			<Text>*Kazan*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TARTARSTAN_CITYTWO">
+			<Text>Yelabuga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TARTARSTAN">
+			<Text>Tartarstan</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

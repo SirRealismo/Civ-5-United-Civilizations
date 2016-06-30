@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2013 1:38:43 PM -->
+<!--
+List of the currently available city state colors:
+
+PLAYERCOLOR_
+	DARK_ORANGE**
+	MINOR_GREEN
+	GREEN
+	DARK_PINK
+	MIDDLE_GREEN**
+	DARK_INDIGO_AND_WHITE
+	BLACK (Darker Gray)
+	DARK_DARK_GREEN		
+	RED
+	DARK_BLUE
+	PINK
+	BROWN*
+	DARK_RED
+	MINOR_WHITE (Light Brown)
+	DARK_GRAY
+	MINOR_BLUE
+	MINOR_MIDDLE_BLUE
+	MINOR_CYAN
+	MINOR_MIDDLE_CYAN
+	MINOR_PEACH (Magenta)
+	MINOR_GREEN (Dark Purple)
+	MINOR_LIGHT_GREEN (Peach)
+	MINOR_LIGHT_BLUE
+	MINOR_PURPLE
+	MINOR_MIDDLE_PURPLE*
+	MINOR_LIGHT_PURPLE*
+	MINOR_LIGHT_ORANGE (Orange)
+	MINOR_GOLDENROD
+	MINOR_LIGHT_YELLOW (Maroon)
+	MINOR_YELLOW
+	MINOR_DARK_LEMON (Light Orange)
+
+Not currently assigned as Primary Colors: COLOR_YIELD_PRODUCTION
+-->
+<GameData>
+	<PlayerColors>
+<!--||||||||||||||||||||||||||||MINOR_GREEN|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_DARK_GREEN"/>
+			<Where Type="PLAYERCOLOR_MINOR_GREEN"/>
+		</Update>
+<!--||||||||||||||||||||||||||||BLACK|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_DARK_GRAY_TEXT"/>
+			<Where Type="PLAYERCOLOR_BLACK"/>
+		</Update>
+<!--||||||||||||||||||||||||||||DARK_ORANGE|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_DARK_ORANGE"/>
+		</Update>
+<!---Remember that PLAYERCOLOR_DARK_INDIGO_AND_WHITE exists!-->
+<!---Remember that PLAYERCOLOR_BLACK exists!-->
+	
+<!--||||||||||||||||||||||||||||GREEN|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_GREEN"/>
+		</Update>
+<!--||||||||||||||||||||||||||||DARK_PINK|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_DARK_PINK"/>
+		</Update>
+<!--||||||||||||||||||||||||||||MIDDLE_GREEN|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MIDDLE_GREEN"/>
+		</Update>
+<!--||||||||||||||||||||||||||||DARK_DARK_GREEN|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_DARK_DARK_GREEN"/>
+		</Update>
+<!--||||||||||||||||||||||||||||RED|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_RED"/>
+		</Update>
+<!--||||||||||||||||||||||||||||DARK_BLUE|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_DARK_BLUE"/>
+		</Update>
+<!--||||||||||||||||||||||||||||PINK|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_PINK"/>
+		</Update>
+<!--||||||||||||||||||||||||||||BROWN|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_BROWN"/>
+		</Update>
+<!--||||||||||||||||||||||||||||DARK_RED|||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_DARK_RED"/>
+		</Update>
+<!--||||||||||||||||||||||||||||BARBARIANS|||||||||||||||||||||||||||||||||||||||||||||||||||-->		
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_BARBARIAN_BACKGROUND"/>
+			<Where Type="PLAYERCOLOR_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_BARBARIAN_ICON"/>
+			<Where Type="PLAYERCOLOR_BARBARIAN"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_LIGHT_BROWN"/>
+			<Where Type="PLAYERCOLOR_MINOR_WHITE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_WHITE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_WHITE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_DARK_GRAY"/>
+			<Where Type="PLAYERCOLOR_MINOR_GRAY"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_GRAY"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_DARK_GRAY"/>
+			<Where Type="PLAYERCOLOR_MINOR_GRAY"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_BLUE"/>
+			<Where Type="PLAYERCOLOR_MINOR_BLUE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_BLUE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_BLUE"/>
+			<Where Type="PLAYERCOLOR_MINOR_BLUE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_MIDDLE_BLUE"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_BLUE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_BLUE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_MIDDLE_BLUE"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_BLUE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_CYAN"/>
+			<Where Type="PLAYERCOLOR_MINOR_CYAN"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_CYAN"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_CYAN"/>
+			<Where Type="PLAYERCOLOR_MINOR_CYAN"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_MIDDLE_CYAN"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_CYAN"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_CYAN"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_MIDDLE_CYAN"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_CYAN"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_PEACH"/>
+			<Where Type="PLAYERCOLOR_MINOR_PEACH"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_DARK_GRAY"/>
+			<Where Type="PLAYERCOLOR_MINOR_PEACH"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_PEACH"/>
+			<Where Type="PLAYERCOLOR_MINOR_PEACH"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_DARK_PURPLE"/>
+			<Where Type="PLAYERCOLOR_MINOR_GREEN"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_GREEN"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_GREEN"/>
+			<Where Type="PLAYERCOLOR_MINOR_GREEN"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_GRAY_TEXT"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_GREEN"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_GREEN"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_LIGHT_GREEN"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_GREEN"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_LIGHT_BLUE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_BLUE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_BLUE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_LIGHT_BLUE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_BLUE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_PURPLE"/>
+			<Where Type="PLAYERCOLOR_MINOR_PURPLE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_PURPLE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_PURPLE"/>
+			<Where Type="PLAYERCOLOR_MINOR_PURPLE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_MIDDLE_PURPLE"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_PURPLE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_PURPLE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_MIDDLE_PURPLE"/>
+			<Where Type="PLAYERCOLOR_MINOR_MIDDLE_PURPLE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_LIGHT_PURPLE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_PURPLE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_PURPLE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_LIGHT_PURPLE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_PURPLE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_ORANGE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_ORANGE"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_ORANGE"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_LIGHT_ORANGE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_ORANGE"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_LIGHT_YELLOW"/>
+			<Where Type="PLAYERCOLOR_MINOR_YELLOW"/>
+		</Update>
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_DARK_GRAY"/>
+			<Where Type="PLAYERCOLOR_MINOR_YELLOW"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_LIGHT_YELLOW"/>
+			<Where Type="PLAYERCOLOR_MINOR_YELLOW"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_MAROON"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_YELLOW"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_YELLOW"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_LIGHT_YELLOW"/>
+			<Where Type="PLAYERCOLOR_MINOR_LIGHT_YELLOW"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_GOLDENROD"/>
+			<Where Type="PLAYERCOLOR_MINOR_GOLDENROD"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_GOLDENROD"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_GOLDENROD"/>
+			<Where Type="PLAYERCOLOR_MINOR_GOLDENROD"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+		<Update>
+			<Set PrimaryColor="COLOR_PLAYER_MAGENTA"/>
+			<Where Type="PLAYERCOLOR_MINOR_DARK_LEMON"/>
+		</Update>
+
+		<Update>
+			<Set SecondaryColor="COLOR_PLAYER_WHITE"/>
+			<Where Type="PLAYERCOLOR_MINOR_DARK_LEMON"/>
+		</Update>
+
+		<Update>
+			<Set TextColor="COLOR_PLAYER_DARK_LEMON"/>
+			<Where Type="PLAYERCOLOR_MINOR_DARK_LEMON"/>
+		</Update>
+<!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+	</PlayerColors>
+  
+</GameData>

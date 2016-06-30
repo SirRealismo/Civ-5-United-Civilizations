@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2010 2:52:04 PM -->
+<GameData>
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_RAPA_NUI</Type>
+			<Description>TXT_KEY_CITYSTATE_RAPA_NUI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_RAPA_NUI</ShortDescription>
+			<Adjective>Rapanui</Adjective>
+			<Civilopedia>No info</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GOLDENROD</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICAN</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_RAPA_NUI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_RAPA_NUI</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_RAPA_NUI_ADJ">
+			<Text>Rapa Nui</Text>
+		</Row>
+	</Language_en_US>
+	
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_RAPA_NUI</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_RAPA_NUI</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_RAPA_NUI</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_RAPA_NUI</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+</GameData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_COMOROS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_COMOROS_CITYTHREE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_COMOROS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_COMOROS_CAPITAL</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_COMOROS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_COMOROS_CITYTWO</CityName>
+		</Row>
+		<Delete CityName="TXT_KEY_CITYSTATE_COMOROS" />
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_COMOROS_CAPITAL">
+			<Text>Moutsamoudou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_COMOROS_CITYTHREE">
+			<Text>*Moroni*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_COMOROS_CITYTWO">
+			<Text>Fomboni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_COMOROS">
+			<Text>Comoros</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

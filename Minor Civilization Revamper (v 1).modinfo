@@ -1,0 +1,1002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9c09b9e6-4354-4816-8b8e-890b5550e070" version="1">
+  <Properties>
+    <Name>Minor Civilization Revamper</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>V 0.02 - Aims to revamp minor civilizations to more closely represent civs than city states.</Teaser>
+    <Description>V 0.02 - Aims to revamp minor civilizations to more closely represent civs than city states.</Description>
+    <Authors>Sirrealismo</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="ACA2FE1946AC219C7F8A1FBFB8E0FB15" import="0">AuxCivs for WorldMap/!Mexico.xml</File>
+    <File md5="EA37114B42F8E7176A4801E45352FBE7" import="0">AuxCivs for WorldMap/Benin.xml</File>
+    <File md5="FA1655ACADDFDDCA9BC4FA51FBBC99E3" import="0">AuxCivs for WorldMap/BENIN_CityNames.xml</File>
+    <File md5="F4708B412BBF80F9EA360AE945CC6AAC" import="0">AuxCivs for WorldMap/CongoBrazzaville.xml</File>
+    <File md5="E32B302B157B488B7A0BE55522639AAB" import="0">AuxCivs for WorldMap/CongoKinshasa.xml</File>
+    <File md5="6B14A075BA3A5B23E49A28ABFEF5BC75" import="0">AuxCivs for WorldMap/CONGO_BRAZZAVILLE_CityNames.xml</File>
+    <File md5="979DD77B6FD50EC1AE2763E2C7ED3101" import="0">AuxCivs for WorldMap/CONGO_KINSHASA_CityNames.xml</File>
+    <File md5="4464B62ED0EACCB7610619D042741626" import="0">AuxCivs for WorldMap/Hittite.xml</File>
+    <File md5="EF13FFA77C0A7B60CF04E35E51FB80F8" import="0">AuxCivs for WorldMap/HITTITE_CityNames.xml</File>
+    <File md5="3ED0332FFB25D38319F972C076E55725" import="0">AuxCivs for WorldMap/Mali.xml</File>
+    <File md5="05F7EF7AD4253DB6393D0F95CCF8DBA2" import="0">AuxCivs for WorldMap/MALI_CityNames.xml</File>
+    <File md5="1B7B89357E4F5044EF79C7D3A3FCBD77" import="0">AuxCivs for WorldMap/Canada.xml</File>
+    <File md5="C0E42A051A09A8BC3E4810127E2C58EF" import="0">AuxCivs for WorldMap/CANADA_CityNames.xml</File>
+    <File md5="B3D2D654AD1373E2AF2019B6885DAD20" import="0">AuxCivs for WorldMap/Korea.xml</File>
+    <File md5="0CAC06640C7B211499969C030FBE80CF" import="0">AuxCivs for WorldMap/KOREA_CityNames.xml</File>
+    <File md5="2C0C8EEC58D9CB334555A1EC685935D2" import="0">AuxCivs for WorldMap/MEXICO_CityNames.xml</File>
+    <File md5="936119B831E8122780161CC67D63AD06" import="0">AuxCivs for WorldMap/Myanmar.xml</File>
+    <File md5="314382EEA77B7744A256FEF5CBA71D8F" import="0">AuxCivs for WorldMap/MYANMAR_CityNames.xml</File>
+    <File md5="74B054900A2970AD5A990C31FD25F064" import="0">AuxCivs for WorldMap/Sumer.xml</File>
+    <File md5="51E02605B4985DC0D5B8324C84B6EC19" import="0">AuxCivs for WorldMap/SUMER_CityNames.xml</File>
+    <File md5="B48B348B73B2A801FED6E15BD182BA12" import="0">CityNames/ABORIGINE_CityNames.xml</File>
+    <File md5="CB01C7AD544AF90533B49161DB8EF39C" import="0">CityNames/ABU_DHABI_CityNames.xml</File>
+    <File md5="6BAF84554076DF99078D1DCB7D4C24BC" import="0">CityNames/AFGHANISTAN_CityNames.xml</File>
+    <File md5="95A4A438E6827E8EDB3C4DB91875FF38" import="0">CityNames/ALASKA_CityNames.xml</File>
+    <File md5="E0E2664869D605EC1E6C133A7FC321FB" import="0">CityNames/ALBANIA_CityNames.xml</File>
+    <File md5="0B1980AC085E679172FDEC5954CF2356" import="0">CityNames/ALBERTA_CityNames.xml</File>
+    <File md5="AEA255A61142548E37697CF22B919703" import="0">CityNames/ALGERIA_CityNames.xml</File>
+    <File md5="5BF641EE1FCF82E31BEB910AB6832CC3" import="0">CityNames/ALGONQUIN_CityNames.xml</File>
+    <File md5="14B175583281F5C5B170B652B3F43744" import="0">CityNames/ANDORRA_CityNames.xml</File>
+    <File md5="D5B74E1E226CF26F4236C976D575C85D" import="0">CityNames/ANGOLA_CityNames.xml</File>
+    <File md5="D069FAC515F7036246BBF7B898181E90" import="0">CityNames/ANTIGUA_AND_BARBUDA_CityNames.xml</File>
+    <File md5="AF29470A55793F2AAC2EC4587F789F13" import="0">CityNames/APACHE_CityNames.xml</File>
+    <File md5="0E7F5D2CE60CF9E856EB67BD5F6D8189" import="0">CityNames/ARAPAHO_CityNames.xml</File>
+    <File md5="D3281A4779AE6ABA973FC37677F9A411" import="0">CityNames/ARGENTINA_CityNames.xml</File>
+    <File md5="263029D448DC34049F83DF9F51C576C5" import="0">CityNames/ARMENIA_CityNames.xml</File>
+    <File md5="737FAF917B8FDCD417FFABCA32F39BC0" import="0">CityNames/AUSTRALIA_CityNames.xml</File>
+    <File md5="2A1A85C92F21A5D9628CB9DA9B9D8D69" import="0">CityNames/AZERBAIJAN_CityNames.xml</File>
+    <File md5="7691377200FDD257DE404AD6F9FC1F10" import="0">CityNames/BABYLONIA_CityNames.xml</File>
+    <File md5="9AE44E4A2E37662686FCA29A77CCB3DA" import="0">CityNames/BAHAMAS_CityNames.xml</File>
+    <File md5="990228C40260228B110CC348FCF65ACC" import="0">CityNames/BAHRAIN_CityNames.xml</File>
+    <File md5="695BABA6C354B2EBB36F66F1B2A5E1EB" import="0">CityNames/BANGLADESH_CityNames.xml</File>
+    <File md5="3C3939CA9484C19BC1C24291D3ACF38A" import="0">CityNames/BARBADOS_CityNames.xml</File>
+    <File md5="44329ADD3EA8CAD0D4915024F32B7075" import="0">CityNames/BASQUE_CityNames.xml</File>
+    <File md5="D4D2EBFA63B9868E4266117A1A45F5CC" import="0">CityNames/BELARUS_CityNames.xml</File>
+    <File md5="E666C54C7F89AA07B55AE134084A4AD3" import="0">CityNames/BELIZE_CityNames.xml</File>
+    <File md5="47803A4D560B2D2B4FD2AA6C55901ADF" import="0">CityNames/BHUTAN_CityNames.xml</File>
+    <File md5="FF0BDE921E53CE1A1D7EB03768AE95AF" import="0">CityNames/BJARMALAND_CityNames.xml</File>
+    <File md5="F2991B71F944B06789241621ACEC464A" import="0">CityNames/BLACKFOOT_CityNames.xml</File>
+    <File md5="A1A61FB1290B2C202EF2EB65F423988D" import="0">CityNames/BOLIVIA_CityNames.xml</File>
+    <File md5="C4CEE5DA511D6FD6352858A1B9FDE57F" import="0">CityNames/BOSNIA_AND_HERZEGOVINA_CityNames.xml</File>
+    <File md5="68314F1527A68E00E843AC283BA4ADFB" import="0">CityNames/BOTSWANA_CityNames.xml</File>
+    <File md5="6AD47B23E9BFCDFE92A10201FE0D0CEE" import="0">CityNames/BRUNEI_CityNames.xml</File>
+    <File md5="F23F2363E7ED2FA1C4A239849F74F086" import="0">CityNames/BULGARIA_CityNames.xml</File>
+    <File md5="1EE38FB26B91CFEA5C031BB23255E627" import="0">CityNames/BURKINA_FASO_CityNames.xml</File>
+    <File md5="376CA380F69FE23B7299CA86EC7A546A" import="0">CityNames/BURUNDI_CityNames.xml</File>
+    <File md5="7254CAAEAF90EE723DD23AB15286ACFE" import="0">CityNames/CAHOKIA_CityNames.xml</File>
+    <File md5="C2780427716933A5D7273C66E3AEA7B9" import="0">CityNames/CALIFORNIA_CityNames.xml</File>
+    <File md5="1A6C028764A79693EEA796869E140EDA" import="0">CityNames/CAMEROON_CityNames.xml</File>
+    <File md5="D87DF5DC9B56EA5F206FCD3CC562CBEB" import="0">CityNames/CASCADIA_CityNames.xml</File>
+    <File md5="C018508B94E83937BF5EA6F69AE69738" import="0">CityNames/CATALONIA_CityNames.xml</File>
+    <File md5="0951351FFF53A6EF027747EC103ABC44" import="0">CityNames/CENTRAL_AFRICAN_REPUBLIC_CityNames.xml</File>
+    <File md5="D64946053847847DB221D1088D64008B" import="0">CityNames/CHAD_CityNames.xml</File>
+    <File md5="B35850B1FA73388551A42EFF3BAB1140" import="0">CityNames/CHECHNYA_CityNames.xml</File>
+    <File md5="E6BC3B690063F5A8DF7A1BC38436E636" import="0">CityNames/CHIAPAS_CityNames.xml</File>
+    <File md5="53A7E8F7C3068C2077420C079E1D0EF0" import="0">CityNames/CHICKASAW_CityNames.xml</File>
+    <File md5="509B6CDC6BC85336BA327FB6485BA449" import="0">CityNames/CHILE_CityNames.xml</File>
+    <File md5="4D1DE588C5D5C23754C58EC8F2DD097D" import="0">CityNames/CHIPPEWA_CityNames.xml</File>
+    <File md5="D96FF02C1353D39B8408954CB7E2F3DF" import="0">CityNames/CHOCTAW_CityNames.xml</File>
+    <File md5="D07885774339FCFE7EB10C55FAFC0768" import="0">CityNames/COLOMBIA_CityNames.xml</File>
+    <File md5="8A0C9DDADDF1BBD72B2D1716D5E1AC5D" import="0">CityNames/COSTA_RICA_CityNames.xml</File>
+    <File md5="0215F43BAFA454FE8DFFBC026D25696D" import="0">CityNames/CROATIA_CityNames.xml</File>
+    <File md5="4E4E385315F80631A6EC00F47087ED78" import="0">CityNames/CROW_CityNames.xml</File>
+    <File md5="ABBF973F9CC1C1C119DA8A76D02DFD38" import="0">CityNames/CUBA_CityNames.xml</File>
+    <File md5="1E65A2BD17891ACC6A9D7BDCE8AA77D8" import="0">CityNames/CYPRUS_CityNames.xml</File>
+    <File md5="0E0868AFFDFBA8A55A7C24C2CCB83CCC" import="0">CityNames/CZECH_REPUBLIC_CityNames.xml</File>
+    <File md5="1B7E58D0EAB219E848934114CD4476FB" import="0">CityNames/DENENDEH_CityNames.xml</File>
+    <File md5="BB076B2F7079524F98A18119452964F4" import="0">CityNames/DENMARK_CityNames.xml</File>
+    <File md5="391B4E8CFE95624A7EA58F59CC326185" import="0">CityNames/DJIBOUTI_CityNames.xml</File>
+    <File md5="3E7D2648EAA1B7F4689FB037CB0FCD80" import="0">CityNames/DOMINICAN_REPUBLIC_CityNames.xml</File>
+    <File md5="799EFEEB0B670C7470805B4F90617102" import="0">CityNames/DOMINICA_CityNames.xml</File>
+    <File md5="C764DF748BD036D73E5848571A595D81" import="0">CityNames/DUBAI_CityNames.xml</File>
+    <File md5="92EDB8CCA8C92A765BF29BF2BD576544" import="0">CityNames/EAST_TIMOR_CityNames.xml</File>
+    <File md5="74D441FD1C94A93F1CF591C412BDAED3" import="0">CityNames/ECUADOR_CityNames.xml</File>
+    <File md5="024B7560AF45CD66A6F695C6B4EFF9D5" import="0">CityNames/EL_SALVADOR_CityNames.xml</File>
+    <File md5="5EC725E069089B37EFCE9182CE577DE7" import="0">CityNames/EQUATORIAL_GUINEA_CityNames.xml</File>
+    <File md5="EE89906E996450ADC351BF03A31E58F9" import="0">CityNames/ERITREA_CityNames.xml</File>
+    <File md5="430828F2AA5648EBCC9647750E565D7E" import="0">CityNames/ESTONIA_CityNames.xml</File>
+    <File md5="E73FD849A2898154F67F53A1530E04DA" import="0">CityNames/FIJI_CityNames.xml</File>
+    <File md5="C4DB41F9C1F2999603052ED7A2F8CD11" import="0">CityNames/FINLAND_CityNames.xml</File>
+    <File md5="4A46A7826BD72B3003329DC555B910C6" import="0">CityNames/FRENCH_GUIANA_CityNames.xml</File>
+    <File md5="334F635A1459B9BE77F65BBEDC9DAEDD" import="0">CityNames/FRENCH_POLYNESIA_CityNames.xml</File>
+    <File md5="7593E535FD7F376B69627C80DCBAFD18" import="0">CityNames/GABON_CityNames.xml</File>
+    <File md5="7003DCD46C8CC6C81A071E23E322F5CB" import="0">CityNames/GAMBIA_CityNames.xml</File>
+    <File md5="5C1ADA8C8BA3674E1C2F82B0CAB95C06" import="0">CityNames/GEORGIA_CityNames.xml</File>
+    <File md5="D6FE5E20CB1F30DD002BD5515EFC0C5C" import="0">CityNames/GHANA_CityNames.xml</File>
+    <File md5="792BACE8052A3D2B98DCCF737304927C" import="0">CityNames/GREENLAND_CityNames.xml</File>
+    <File md5="393E9A229D5185DC78CEDA469844C903" import="0">CityNames/GRENADA_CityNames.xml</File>
+    <File md5="D9AF693B0925DC968A07EE5FD8F14810" import="0">CityNames/GUATEMALA_CityNames.xml</File>
+    <File md5="AE7B3F977B35B8AD057E68B3F5A56EB0" import="0">CityNames/GUINEA_BISSAU_CityNames.xml</File>
+    <File md5="2F00973DB800D85E8714398E203A0F47" import="0">CityNames/GUINEA_CityNames.xml</File>
+    <File md5="AC711C81D6A9B5E88FFF0E201D202502" import="0">CityNames/GUYANA_CityNames.xml</File>
+    <File md5="CFAEBFAA5D3DBFA1A5CCF511D293E140" import="0">CityNames/HAITI_CityNames.xml</File>
+    <File md5="E7CE2E60A5B248DF4281648CAF3985BF" import="0">CityNames/HAWAII_CityNames.xml</File>
+    <File md5="80A9D90C8444691C9C2D9C830BE13A04" import="0">CityNames/HONDURAS_CityNames.xml</File>
+    <File md5="BE80CD6B6EC30987926FA7F1B14DDA0B" import="0">CityNames/HOPI_CityNames.xml</File>
+    <File md5="F9DBF6325F9473EDBD6025ED5960AB7F" import="0">CityNames/HUNGARY_CityNames.xml</File>
+    <File md5="C7A11413B42F5A0D0BF6F61A355889B8" import="0">CityNames/HURON_CityNames.xml</File>
+    <File md5="C7EE3D471896367E62576FED5947911D" import="0">CityNames/ICELAND_CityNames.xml</File>
+    <File md5="979E3CC4DBA18DAD2A0E34CE55B52464" import="0">CityNames/IRAQ_CityNames.xml</File>
+    <File md5="65D7C2E981612C798449E9AAFE6E724B" import="0">CityNames/ISRAEL_CityNames.xml</File>
+    <File md5="158EBF035D87E17A985C8639EF4F3C6E" import="0">CityNames/IVORY_COAST_CityNames.xml</File>
+    <File md5="CBF7059CC0752B4073BBA8D74F7C90DB" import="0">CityNames/JAMAICA_CityNames.xml</File>
+    <File md5="DD68868470A53F1DA32130F203A3BCF2" import="0">CityNames/JORDAN_CityNames.xml</File>
+    <File md5="FD6D5F98CB964BFB810D060371996826" import="0">CityNames/KASHMIR_CityNames.xml</File>
+    <File md5="13BCB7697C50CE4A4619B63D44573A82" import="0">CityNames/KAZAKHSTAN_CityNames.xml</File>
+    <File md5="2133797D461D71F24430740807E38C77" import="0">CityNames/KENYA_CityNames.xml</File>
+    <File md5="2B5A48547CA07556EE6CBFDEC649F49C" import="0">CityNames/KIRIBATI_CityNames.xml</File>
+    <File md5="2DE7AD0DACE987835B598C66C5855B65" import="0">CityNames/KURDISTAN_CityNames.xml</File>
+    <File md5="9D95992201A98C3A7A3A821985B36BFA" import="0">CityNames/KUWAIT_CityNames.xml</File>
+    <File md5="F4EC8F78D24B99DCB0DDCFB308BC4FE4" import="0">CityNames/KYRGYZSTAN_CityNames.xml</File>
+    <File md5="1BC721FF72E82A29304E8746F7D3E33C" import="0">CityNames/LABRADOR_CityNames.xml</File>
+    <File md5="34D825FD67EAAA53D76ADCF661F2F062" import="0">CityNames/LAOS_CityNames.xml</File>
+    <File md5="0C025E4416C8C0FD0BEB746D906E7AAF" import="0">CityNames/LATVIA_CityNames.xml</File>
+    <File md5="E94EBAB04CB9FD479232087F0CB53595" import="0">CityNames/LEBANON_CityNames.xml</File>
+    <File md5="C5DDEC8CE89941BA7E50AB1151EF24E2" import="0">CityNames/LENAPE_CityNames.xml</File>
+    <File md5="C6F6AA3B81313F8C66B683C544A87E7A" import="0">CityNames/LESOTHO_CityNames.xml</File>
+    <File md5="F0CA3AA9ECC741BD0568C560F496E9A9" import="0">CityNames/LIBERIA_CityNames.xml</File>
+    <File md5="BE9287C28208004B5D5060B61A5F83E0" import="0">CityNames/LIBYA_CityNames.xml</File>
+    <File md5="A4EAB30CAB3508004EA93E44BE59DE67" import="0">CityNames/LIECHTENSTEIN_CityNames.xml</File>
+    <File md5="318D089F5DAB47103A1FF148920A7D04" import="0">CityNames/LITHUANIA_CityNames.xml</File>
+    <File md5="869C79960DEF98D08B39DC3C2C3EF0D2" import="0">CityNames/LUXEMBOURG_CityNames.xml</File>
+    <File md5="63280C4436F922237AC00BD3F34359EE" import="0">CityNames/MACEDONIA_CityNames.xml</File>
+    <File md5="42FCEE720444A4BC3D2A0B0D1FFE3F85" import="0">CityNames/MADAGASCAR_CityNames.xml</File>
+    <File md5="7821800D0170431FB1E8E9F37E91C023" import="0">CityNames/MALAWI_CityNames.xml</File>
+    <File md5="C9A92E52E9A72FB9326C6ADF0B5E416D" import="0">CityNames/MALAYSIA_CityNames.xml</File>
+    <File md5="ECA3889FB5D55E3948476BE8E87F06CA" import="0">CityNames/MALDIVES_CityNames.xml</File>
+    <File md5="9B1318D935B185C5ECAC0FFBFAC6581A" import="0">CityNames/MALI_CityNames.xml</File>
+    <File md5="CF1B1EE83561287FE4779AF1CD306A61" import="0">CityNames/MALTA_CityNames.xml</File>
+    <File md5="35317E436403E28E07984DEF490327EB" import="0">CityNames/MANITOBA_CityNames.xml</File>
+    <File md5="0D2310F0A74E35564741850D79B8388C" import="0">CityNames/MARYLAND_CityNames.xml</File>
+    <File md5="23714615C9427AFA5DB8C1AB7AF73B69" import="0">CityNames/MAURITANIA_CityNames.xml</File>
+    <File md5="466661522B8EC73E622E3630F8EB94AB" import="0">CityNames/MAURITIUS_CityNames.xml</File>
+    <File md5="349DFCE28CCE6462D7C0749ED1797BC9" import="0">CityNames/MICRONESIA_CityNames.xml</File>
+    <File md5="3515872046B0EDC9922F1C8D502FB06B" import="0">CityNames/MOLDOVA_CityNames.xml</File>
+    <File md5="158A3E2A4C9A124F92EACFD203AABB7D" import="0">CityNames/MOZAMBIQUE_CityNames.xml</File>
+    <File md5="5579D2C54198051D2257F37ABB775D2D" import="0">CityNames/NAMIBIA_CityNames.xml</File>
+    <File md5="98676FCE715DF5F3ACC11BCE96B375BC" import="0">CityNames/NAURU_CityNames.xml</File>
+    <File md5="218185C6477B7642C2710B93E4A7D6FC" import="0">CityNames/NAVAJO_CityNames.xml</File>
+    <File md5="AA9E06CD693121F95257F53E6064A487" import="0">CityNames/NEPAL_CityNames.xml</File>
+    <File md5="2019DD5DEFA518B7DE709FC1F9041725" import="0">CityNames/NEWFOUNDLAND_CityNames.xml</File>
+    <File md5="99303AA4BEEE66443A394F4FDAA3343E" import="0">CityNames/NEW_BRUNSWICK_CityNames.xml</File>
+    <File md5="86FA610638A03EB536465C70EB0144EE" import="0">CityNames/NEW_ZEALAND_CityNames.xml</File>
+    <File md5="4F0C66B04553855EDB44E050F7C0AF9F" import="0">CityNames/NICARAGUA_CityNames.xml</File>
+    <File md5="CBDDD4FAE05CC3FE5FEC12085D4B57AE" import="0">CityNames/NIGERIA_CityNames.xml</File>
+    <File md5="5BB8846EA11EB4CF623F614E344BD335" import="0">CityNames/NIGER_CityNames.xml</File>
+    <File md5="BA33D258CED5D8074AD5FCA9AA796B90" import="0">CityNames/NIUE_CityNames.xml</File>
+    <File md5="B33E97BB0A63D10291B48FAFAFFF178D" import="0">CityNames/NORTHERN_IRELAND_CityNames.xml</File>
+    <File md5="C5D327D8A92E253CA2858DCF364AE52F" import="0">CityNames/NORTH_KOREA_CityNames.xml</File>
+    <File md5="E948B58CFB3C1633E7087C14EE63A63C" import="0">CityNames/NORWAY_CityNames.xml</File>
+    <File md5="290B62CCD87DBECBAF446975BA68CF9C" import="0">CityNames/NOVA_SCOTIA_CityNames.xml</File>
+    <File md5="84051CA103118F1CC872B0DC4DB33A38" import="0">CityNames/NUNAVUT_CityNames.xml</File>
+    <File md5="5D4EB3AA3562D8EC720CA68019E60804" import="0">CityNames/OLMEC_CityNames.xml</File>
+    <File md5="ECA76188E1220AF992D70FB287B2DF91" import="0">CityNames/OMAN_CityNames.xml</File>
+    <File md5="B658FE2186995A88BBE7EC7CC1648764" import="0">CityNames/ONTARIO_CityNames.xml</File>
+    <File md5="3380B26298D08A63ECB3FA262FF0086D" import="0">CityNames/PAKISTAN_CityNames.xml</File>
+    <File md5="26E6C64A56C6E05B2C31EB040946EF0B" import="0">CityNames/PALAU_CityNames.xml</File>
+    <File md5="6A817E963579FB438FB71B32A6F61B2A" import="0">CityNames/PALESTINE_CityNames.xml</File>
+    <File md5="DC3C2215CC1360E2504D0C6429137E2D" import="0">CityNames/PANAMA_CityNames.xml</File>
+    <File md5="AC9B57515B83C564F9A291BB37A8D4A9" import="0">CityNames/PAPUA_NEW_GUINEA_CityNames.xml</File>
+    <File md5="9C1A11DE524FB7B4E93BF68159E9584F" import="0">CityNames/PARAGUAY_CityNames.xml</File>
+    <File md5="055BBAEEB2FF55430F54E225884599CA" import="0">CityNames/PATAGONIA_CityNames.xml</File>
+    <File md5="06E947F3BE92DA0B020885866F140E34" import="0">CityNames/PAWNEE_CityNames.xml</File>
+    <File md5="E9F822B6AD18BC2E873A2F04C8845B05" import="0">CityNames/PERU_CityNames.xml</File>
+    <File md5="B6A97E191B006EE87598D620F98DC272" import="0">CityNames/PHOENICIA_CityNames.xml</File>
+    <File md5="E7250FA4D0610D6EF59FAC2CFCD8EC51" import="0">CityNames/POWHATAN_CityNames.xml</File>
+    <File md5="6E7640FFF0EBE8F0541965E4EDDBB180" import="0">CityNames/PRINCE_EDWARD_CityNames.xml</File>
+    <File md5="77CD7B8BBF31DE2FFAA88F8C3B189E94" import="0">CityNames/PUEBLO_CityNames.xml</File>
+    <File md5="9533AC2A5B8DF5389CF7BD34A8426942" import="0">CityNames/PUERTO_RICO_CityNames.xml</File>
+    <File md5="B42C5D185A5C703057FA859586AF44BB" import="0">CityNames/PUNTLAND_CityNames.xml</File>
+    <File md5="CD35411C9BFC08873D2052CF45651552" import="0">CityNames/QATAR_CityNames.xml</File>
+    <File md5="8E9FB68C0394B2ABA8E4164D72132D88" import="0">CityNames/QUEBEC_CityNames.xml</File>
+    <File md5="2A53A874FE53FCE994CEADF2619004B5" import="0">CityNames/RAPA_NUI_CityNames.xml</File>
+    <File md5="7747542117181F4FE8D304AA1F7B70FB" import="0">CityNames/ROMANIA_CityNames.xml</File>
+    <File md5="21C4AE9ECF31379D89A8F85EEAD041FF" import="0">CityNames/RWANDA_CityNames.xml</File>
+    <File md5="F0E65251C4D457DC4E7A7FE38D9AC58F" import="0">CityNames/SAMOA_CityNames.xml</File>
+    <File md5="7D4CE6DBC2FB3BAE4786C62ABB359EDC" import="0">CityNames/SAN_MARINO_CityNames.xml</File>
+    <File md5="0BD9200AC18BADE29EB7F36E7AB9F790" import="0">CityNames/SAO_TOME_AND_PRINCIPE_CityNames.xml</File>
+    <File md5="BC4F836724F0239FDFAB899A7A083F11" import="0">CityNames/SASKATCHEWAN_CityNames.xml</File>
+    <File md5="181331B18595A740FFB32CA63D6D824F" import="0">CityNames/SCOTLAND_CityNames.xml</File>
+    <File md5="10C9775D43B60D8BD7D3C14823D015F1" import="0">CityNames/SENEGAL_CityNames.xml</File>
+    <File md5="02C7C108048BB6A6618AD7FC8EB0F07F" import="0">CityNames/SERBIA_CityNames.xml</File>
+    <File md5="CA7960BA1ED6A06C3C637E2D8BAB6D09" import="0">CityNames/SEYCHELLES_CityNames.xml</File>
+    <File md5="F534ED7C8905408C4EA83D964F737483" import="0">CityNames/SHAWNEE_CityNames.xml</File>
+    <File md5="276026500DF901D9CE467C6AE26CE69D" import="0">CityNames/SIERRA_LEONE_CityNames.xml</File>
+    <File md5="249EF960E47DF02CA321CEAC04E0EE70" import="0">CityNames/SIKKIM_CityNames.xml</File>
+    <File md5="5BF2204D16940C3890B4289AFD05D5D7" import="0">CityNames/SIOUX_CityNames.xml</File>
+    <File md5="03B1DD9E1DC6361D2771B7A183AF2179" import="0">CityNames/SIRREALISMO_FLORENCE_CityNames.xml</File>
+    <File md5="6071B92C482AB0762D14718960D1900F" import="0">CityNames/SIRREALISMO_GENOA_CityNames.xml</File>
+    <File md5="27F4CD1033C5ED7CAC0C9EEC751C04A1" import="0">CityNames/SIRREALISMO_HONG_KONG_CityNames.xml</File>
+    <File md5="DD714526BBFD3498AC8587CE0475D19A" import="0">CityNames/SIRREALISMO_MILAN_CityNames.xml</File>
+    <File md5="FDBB4CF40BC8DCE0E3B96B6A1DD8FBDF" import="0">CityNames/SIRREALISMO_SINGAPORE_CityNames.xml</File>
+    <File md5="022F949744D90E76185AEE6F5BC937D8" import="0">CityNames/SIRREALISMO_VATICAN_CITY_CityNames.xml</File>
+    <File md5="99ED90DE5E69682B370357AE051AE25B" import="0">CityNames/SLOVAKIA_CityNames.xml</File>
+    <File md5="375875F9185A04007C39293710BB90DA" import="0">CityNames/SLOVENIA_CityNames.xml</File>
+    <File md5="9501356D84FDB59F93247F111FD729A3" import="0">CityNames/SOMALIA_CityNames.xml</File>
+    <File md5="12F9FAAE1EE1BF4395947D2283733337" import="0">CityNames/SOUTH_AFRICA_CityNames.xml</File>
+    <File md5="01F7A837043AD255A4601E94B3D7DC1B" import="0">CityNames/SOUTH_KOREA_CityNames.xml</File>
+    <File md5="2A7EAD51348E68B95118BC845585C294" import="0">CityNames/SOUTH_SUDAN_CityNames.xml</File>
+    <File md5="92EA5BA1C9AE8DB6F21DA6F7D8DCB4DE" import="0">CityNames/SRI_LANKA_CityNames.xml</File>
+    <File md5="D8B193BA41BED89D42F576C2695FB821" import="0">CityNames/SUDAN_CityNames.xml</File>
+    <File md5="D7DADA631F102FDDD410D11168A234E2" import="0">CityNames/SURINAME_CityNames.xml</File>
+    <File md5="598719222B6793C36AA0BD08DD97F892" import="0">CityNames/SVALBARD_CityNames.xml</File>
+    <File md5="D01B056B556AB7245521C87BA71542F0" import="0">CityNames/SWAZILAND_CityNames.xml</File>
+    <File md5="8A54CD82828A2FEC536269A003C634AA" import="0">CityNames/SWITZERLAND_CityNames.xml</File>
+    <File md5="898A74D1DAA9F0CB000A712FAAD34F99" import="0">CityNames/SYRIA_CityNames.xml</File>
+    <File md5="D0BC90C4314E66B5E13C028E493E8615" import="0">CityNames/TAIWAN_CityNames.xml</File>
+    <File md5="E9ACB8946AE72C70BE7FBA4E95A4B0F1" import="0">CityNames/TAJIKISTAN_CityNames.xml</File>
+    <File md5="8EC2A9CEFD2A82F5A6D613C27E3B2ABC" import="0">CityNames/TANZANIA_CityNames.xml</File>
+    <File md5="95F17FAB64C3D1689215531082313AC7" import="0">CityNames/TASMANIA_CityNames.xml</File>
+    <File md5="356DD4F294082D1D5BD3F6ED7A63907E" import="0">CityNames/TEXAS_CityNames.xml</File>
+    <File md5="B219246FBC35B082E4ED5F99D1169D62" import="0">CityNames/THE_PHILIPPINES_CityNames.xml</File>
+    <File md5="73129175CC0E85F6A14774C93F3CB3B1" import="0">CityNames/TIBET_CityNames.xml</File>
+    <File md5="3AC7577FEE83291CB550BF4CD64881D5" import="0">CityNames/TOGO_CityNames.xml</File>
+    <File md5="CE1684A1C9ACF9A73F288AE6CE3084BD" import="0">CityNames/TOHONO_OODHAM_CityNames.xml</File>
+    <File md5="B54AD63BA74DA2C63947F9AB61F084AD" import="0">CityNames/TONGA_CityNames.xml</File>
+    <File md5="38DDAC6571E88DFBF97420F57320AA22" import="0">CityNames/TRINIDAD_AND_TOBAGO_CityNames.xml</File>
+    <File md5="CF0CD3EE7F9147AE1EFCF20568376D66" import="0">CityNames/TROY_CityNames.xml</File>
+    <File md5="B9BAECE84F203F9A802AC96A32CF0F10" import="0">CityNames/TUNISIA_CityNames.xml</File>
+    <File md5="AC4FEFADD8D0DC908E3EC35A9582E511" import="0">CityNames/TURKMENISTAN_CityNames.xml</File>
+    <File md5="8A32873DEA3200813DC388B5CD46F190" import="0">CityNames/TUVALU_CityNames.xml</File>
+    <File md5="8EBA5F165F77B6E7DA4C6159145EA889" import="0">CityNames/TUVA_CityNames.xml</File>
+    <File md5="80E588F3FBF6ACE95C096D87AD04F55B" import="0">CityNames/UGANDA_CityNames.xml</File>
+    <File md5="E395C88B25026D293323692A49C98167" import="0">CityNames/UKRAINE_CityNames.xml</File>
+    <File md5="D44E5D8E8E825086A02F0325D160B529" import="0">CityNames/URUGUAY_CityNames.xml</File>
+    <File md5="EA9AFC8504007D3BDAEC92B058E84CE1" import="0">CityNames/UZBEKISTAN_CityNames.xml</File>
+    <File md5="88F2B708DAF8BC9C33BE30C9C8313171" import="0">CityNames/VANUATU_CityNames.xml</File>
+    <File md5="4F69235F2DFAB6E875271DEE2E61F7EA" import="0">CityNames/VENEZUELA_CityNames.xml</File>
+    <File md5="C1061E14C1264C91663FF1BC31E57A2D" import="0">CityNames/VERMONT_CityNames.xml</File>
+    <File md5="D07DBC8DC2151720AC434941E64F4A1C" import="0">CityNames/VIETNAM_CityNames.xml</File>
+    <File md5="E4EC1E2C537E630DC57C63C3ED2476DE" import="0">CityNames/WALES_CityNames.xml</File>
+    <File md5="6D32D625D24DED3723B945759BCC2C92" import="0">CityNames/WALLONIA_CityNames.xml</File>
+    <File md5="881A224536C56EE8F28933AC71895815" import="0">CityNames/WAZIRISTAN_CityNames.xml</File>
+    <File md5="F1FBF01F8073BFD1FFA799DE6A45180F" import="0">CityNames/WESTERN_SAHARA_CityNames.xml</File>
+    <File md5="E9C34589F10EED265E6E56F780D7261C" import="0">CityNames/WISCONSIN_CityNames.xml</File>
+    <File md5="F0A0167F75577DCACC3978B9543338C0" import="0">CityNames/YEMEN_CityNames.xml</File>
+    <File md5="BFE61CCBF03E9B2283C0A3DB972D9AD9" import="0">CityNames/YUCATAN_CityNames.xml</File>
+    <File md5="10F49BDDDA4432BA4FB68045006C911C" import="0">CityNames/YUKON_CityNames.xml</File>
+    <File md5="27E530232B6F8B9FB601564CAE05D80E" import="0">CityNames/ZAMBIA_CityNames.xml</File>
+    <File md5="CE3CDA53933553033E77DB35032B4FE0" import="0">CityNames/ZIMBABWE_CityNames.xml</File>
+    <File md5="9DEE0DD15B65FA122126CDF6B21C9377" import="0">Delete CityName Dupes/GetOuttaHereDupes.xml</File>
+    <File md5="9AC8F4958A96FCE45A36E9392837E6AB" import="0">Eighth Batch/Albania.xml</File>
+    <File md5="ECD8395ABDF5682CE5C1A89A04165F28" import="0">Eighth Batch/AntiguaAndBarbuda.xml</File>
+    <File md5="0CB2D71322BB77D7DF5A8FEAF9BFC413" import="0">Eighth Batch/BosniaAndHerzegovina.xml</File>
+    <File md5="DE1C268CF898EFED720AF3BD956B875B" import="0">Eighth Batch/Croatia.xml</File>
+    <File md5="61355DC37494F8C67B50A2161E0F1C2D" import="0">Eighth Batch/Dominica.xml</File>
+    <File md5="50F6F38172EFBFE23B01E8634503C197" import="0">Eighth Batch/EastTimor.xml</File>
+    <File md5="A62874F1D6C50D1A6D2AC732C3D13EDC" import="0">Eighth Batch/Estonia.xml</File>
+    <File md5="45486687D8CC245913C2B1E4B253156F" import="0">Eighth Batch/FrenchGuiana.xml</File>
+    <File md5="31B452E0B0B895642A7049098D554154" import="0">Eighth Batch/Latvia.xml</File>
+    <File md5="1B07E66B8DA626DA4FA58325F1E47A5E" import="0">Eighth Batch/Malawi.xml</File>
+    <File md5="251A020547E0DE8F604C12A04291703C" import="0">Eighth Batch/Malta.xml</File>
+    <File md5="B9DBD426E199D9DD7C90865E79961689" import="0">Eighth Batch/Mauritius.xml</File>
+    <File md5="0924DC2FB2139D3259DDD2279D363ACD" import="0">Eighth Batch/Moldova.xml</File>
+    <File md5="DFE733EAC0C2230C0703927625C63FE9" import="0">Eighth Batch/Nauru.xml</File>
+    <File md5="A61D884508CE5BFA0E82E051078C3623" import="0">Eighth Batch/Palau.xml</File>
+    <File md5="4D3BB9E03BA907B8A1BCB478BF8C7AB9" import="0">Eighth Batch/SaoTomeAndPrincipe.xml</File>
+    <File md5="13693E291ECA7829636599DDE1E205E3" import="0">Eighth Batch/Seychelles.xml</File>
+    <File md5="9F1A5EBFA544585F57323713FE06B389" import="0">Eighth Batch/Slovenia.xml</File>
+    <File md5="E8D54F3C1FF612466B3618021024B716" import="0">Eighth Batch/TrinidadAndTobago.xml</File>
+    <File md5="306DB7715B88DB00A938B7E4505FDCBF" import="0">Eighth Batch/Tuvalu.xml</File>
+    <File md5="EF4DA6C5E8E6823609DCD8B533135926" import="0">Eighth Batch/Vanuatu.xml</File>
+    <File md5="B3B3B69F3EAD5617B43AC2A6575CC9B1" import="0">Fifth Batch/Bangladesh.xml</File>
+    <File md5="2240C9EFDAFCF628D3A0736E4012F83C" import="0">Fifth Batch/Bulgaria.xml</File>
+    <File md5="D34CC82B0BD26402FE2E97B3B1E73095" import="0">Fifth Batch/Cahokia.xml</File>
+    <File md5="2738A68046AD402EB1191CE1B40AF5D7" import="0">Fifth Batch/Florence.xml</File>
+    <File md5="54947DF0EE9E893F53CA4D66C7E680F9" import="0">Fifth Batch/Guatemala.xml</File>
+    <File md5="3CBB3A7751A1057DEC026E8EFC3EF686" import="0">Fifth Batch/Jordan.xml</File>
+    <File md5="E69FBB69F7B0A6E359EB032BFB05F93D" import="0">Fifth Batch/Lebanon.xml</File>
+    <File md5="E2F8AC2EA05A54927BB8939B5EB86E42" import="0">Fifth Batch/Macedonia.xml</File>
+    <File md5="1E307923E958A731ED5AC8E88BBFE256" import="0">Fifth Batch/Malaysia.xml</File>
+    <File md5="A17389313E9859C723D0631D44F52363" import="0">Fifth Batch/Mozambique.xml</File>
+    <File md5="7AF9908672D6E6EBFC40970AE2396C53" import="0">Fifth Batch/Nicaragua.xml</File>
+    <File md5="FF19A6CE2447F02FD034C6DCB8FA088B" import="0">Fifth Batch/Oman.xml</File>
+    <File md5="06000E8C65759BEC8A61B6EBC3B6B8C3" import="0">Fifth Batch/Qatar.xml</File>
+    <File md5="EDFABEC9FA95B2DBEFC6DAFD868330C0" import="0">Fifth Batch/Romania.xml</File>
+    <File md5="B36FDD9B937A5B865447CB8D193416A9" import="0">Fifth Batch/Tasmania.xml</File>
+    <File md5="B5A800E50AC30924D1562C567660355B" import="0">Fifth Batch/ThePhilippines.xml</File>
+    <File md5="92C78441CB2DAAC8FDA2AA33042AFA85" import="0">Fifth Batch/TheUkraine.xml</File>
+    <File md5="EA80AD4809854DFECFA4FCD56B0A54D5" import="0">Fifth Batch/Uganda.xml</File>
+    <File md5="F7C33FBB4F6F5E648BA9E456E909F1AF" import="0">Fifth Batch/Uzbekistan.xml</File>
+    <File md5="801A77CDCF31ADDDBB26D22ECCF117AB" import="0">Fifth Batch/Vietnam.xml</File>
+    <File md5="65F1F87AC781189DF4E85F4B51441C1B" import="0">Fifth Batch/Yemen.xml</File>
+    <File md5="BBA85DE7D315E05E70E7E053DE44DEA8" import="0">Forth Batch Stray CityNames/CRIMEAN_GOTH_CityNames.xml</File>
+    <File md5="5139788D6FFEE3C7E15550B4008F85AC" import="0">Forth Batch Stray CityNames/LOMBARD_CityNames.xml</File>
+    <File md5="900CEE097DB5EA01396FA039BBBC87DC" import="0">Forth Batch Stray CityNames/OSTROGOTH_CityNames.xml</File>
+    <File md5="67499A548EB216665F6494688F07302D" import="0">Forth Batch Stray CityNames/VANDAL_CityNames.xml</File>
+    <File md5="5AC25DD1BE3A3C84B02F774A1B1703D9" import="0">Forth Batch Stray CityNames/VISIGOTH_CityNames.xml</File>
+    <File md5="4029E6DAE063C4615AC94C91947D1AFF" import="0">Fourth Batch/CrimeanGoth.xml</File>
+    <File md5="3743E4DD8DE07D491C90EBE0989C6D74" import="0">Fourth Batch/Lombard.xml</File>
+    <File md5="8B1901E271DD37C85E81DE8066EF36E7" import="0">Fourth Batch/Ostrogoth.xml</File>
+    <File md5="CA0430A67F7EFE5AD6E518C5DE69E040" import="0">Fourth Batch/Vandal.xml</File>
+    <File md5="4740BE845662088E755ADDE777B0485D" import="0">Fourth Batch/Visigoth.xml</File>
+    <File md5="3494399E93D5D8BBD22076D6B94DD299" import="1">NewTraits/Art/CityStateCommercial.dds</File>
+    <File md5="8B05755681B65E30E3EA5AE15114ABCA" import="1">NewTraits/Art/CityStateDiplomatic.dds</File>
+    <File md5="1CE24DB77091B59BCF8C80A0F96479A3" import="1">NewTraits/Art/CityStateEnvironmental.dds</File>
+    <File md5="5DF8BD7E00A17D453FA56B4301BF1373" import="1">NewTraits/Art/CityStateIndigenous.dds</File>
+    <File md5="D3149F51879522B34E0AE25F53CDABA9" import="1">NewTraits/Art/CityStateIntellectual.dds</File>
+    <File md5="66905940677AA9F2435746D00332154D" import="1">NewTraits/Art/CityStatePopupTopGeneric.dds</File>
+    <File md5="041BFA8BCF6154C628A972FD06491D43" import="1">NewTraits/Art/CityStateProductive.dds</File>
+    <File md5="F510043DF12C1B876CD2F76B5DD82F07" import="1">NewTraits/Art/CityStateProgressive.dds</File>
+    <File md5="31FABAA89DD95B5AB86C4320E5A299FA" import="1">NewTraits/Art/CityStateProsperous.dds</File>
+    <File md5="5A17BF1CD5DE23F211571907996464EE" import="1">NewTraits/Art/CityStateRentier.dds</File>
+    <File md5="50F093F5EFE85B43D711EB3B6B3FA630" import="1">NewTraits/CityStatePopupTraitChanges.lua</File>
+    <File md5="3695BC16DC01DC38F65D61D21610EE1B" import="0">NewTraits/NewMinorCivTraits.xml</File>
+    <File md5="2E71D65781472FD966D7320646166582" import="1">NewTraits/NewTraitsEffects.lua</File>
+    <File md5="F03A15F2FD83D93DD162502A82C204B4" import="1">NewTraits/Preserve Improvement/Art/PreserveAtlas256.dds</File>
+    <File md5="A14D6D029FB5B7A1C66AD6E5F33AEF77" import="1">NewTraits/Preserve Improvement/Art/PreserveAtlas64.dds</File>
+    <File md5="B2DB7E4493ACF4ABA15FAFDF28159631" import="0">NewTraits/Preserve Improvement/GameInfo/IconTextureAtlas.xml</File>
+    <File md5="5CDFBDC7CF4C75D68C798F8F540A3F60" import="0">NewTraits/Preserve Improvement/XML/PreserveBuild.xml</File>
+    <File md5="DD47DD36B4A4C9E16FF315EB398C1A6F" import="0">NewTraits/Preserve Improvement/XML/PreserveImprovement.xml</File>
+    <File md5="AC1CD4993CC11588AB551F063FF2F394" import="0">NewTraits/Preserve Improvement/XML/WorkerUpdate.xml</File>
+    <File md5="68ED17387C75E30ACF4C708AF16745E0" import="0">Ninth Batch/Abkhazia.xml</File>
+    <File md5="1D39C0BEEB1EF472C0951D7D2653A76C" import="0">Ninth Batch/ABKHAZIA_CityNames.xml</File>
+    <File md5="7EB9C010B4F9A4155032A99CFB6E7C4A" import="0">Ninth Batch/Aragon.xml</File>
+    <File md5="10E8E5249339EFEDB90D3200E7914712" import="0">Ninth Batch/Cherokee.xml</File>
+    <File md5="6E2E24D2CA0E43CAB1CC9ECBA33A7A67" import="0">Ninth Batch/CHEROKEE_CityNames.xml</File>
+    <File md5="8E889211994C7EAD2036A90ED222D578" import="0">Ninth Batch/Cree.xml</File>
+    <File md5="D9EF2DD097EF4CA8BC25162906561624" import="0">Ninth Batch/CREE_CityNames.xml</File>
+    <File md5="67203A5D02D09FA26E39063344383A48" import="0">Ninth Batch/Kosovo.xml</File>
+    <File md5="6FD4C133EC2B2F1A94F551403F968695" import="0">Ninth Batch/KOSOVO_CityNames.xml</File>
+    <File md5="AAD002CC58892EDA9A5430ADE6F1F9B6" import="0">Ninth Batch/NezPerce.xml</File>
+    <File md5="0E697336B2F9B84E4A1BC1B9DBCBC2FB" import="0">Ninth Batch/NEZPERCE_CityNames.xml</File>
+    <File md5="A5B8E26996390CDA50A0185D6C3BF069" import="0">Ninth Batch/Romani.xml</File>
+    <File md5="27D0E3494A8B723B67D2EEFAAC0BAA6A" import="0">Ninth Batch/ROMANI_CityNames.xml</File>
+    <File md5="D5E92D36341C4AF0E902576B94F9A3CC" import="0">Ninth Batch/Sami.xml</File>
+    <File md5="7D9AAC0478D7B627C027C2D18AF421F6" import="0">Ninth Batch/SAMI_CityNames.xml</File>
+    <File md5="B0241CF892AFF53CD5EB397A062D7250" import="0">Ninth Batch/Utah.xml</File>
+    <File md5="EFAD544CAD2C35317AEED1253C554A4D" import="0">Ninth Batch/UTAH_CityNames.xml</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">SaveUtils.lua</File>
+    <File md5="666E732B60FB073C6E05BB54DB086E3F" import="0">Second Batch/AbuDhabi.xml</File>
+    <File md5="C7054CBBAE2028D3B633037DAD78A3F4" import="0">Second Batch/Azerbaijan.xml</File>
+    <File md5="9182E3DDA81CC9D3EE2A1763823C3C85" import="0">Second Batch/Cascadia.xml</File>
+    <File md5="D5002A37F878BCFC99CB6B6E74422E05" import="0">Second Batch/Dubai.xml</File>
+    <File md5="6835889C79F1F9554DE78004511E86CD" import="0">Second Batch/Finland.xml</File>
+    <File md5="EA08AEB626962AB03451DF2B45D53150" import="0">Second Batch/Haiti.xml</File>
+    <File md5="168B18D4929B34AFE167BE08F9E984F4" import="0">Second Batch/Israel.xml</File>
+    <File md5="9A0F0D7FE92AA23C28B3A1FE8120D14E" import="0">Second Batch/Kenya.xml</File>
+    <File md5="D9EEEFF4216552A7FEC38D826054B766" import="0">Second Batch/Madagascar.xml</File>
+    <File md5="2AA0D0DF0F32F7D2696E511F85844AE5" import="0">Second Batch/NorthKorea.xml</File>
+    <File md5="F8FFC5B42817DA33843DDEBE44E0283D" import="0">Second Batch/Norway.xml</File>
+    <File md5="8E55983190CE6C30F582ECB9EB2C2BB5" import="0">Second Batch/Rwanda.xml</File>
+    <File md5="8802E6A115235F71504BA12FC6EF40A7" import="0">Second Batch/Somalia.xml</File>
+    <File md5="40A6019FCA98A7EA4C96113B36856E07" import="0">Second Batch/SouthAfrica.xml</File>
+    <File md5="A327A835D1FC35568CBADCA852A483A6" import="0">Second Batch/Switzerland.xml</File>
+    <File md5="E1CF64C2B990008418FDB2C4D76B54C2" import="0">Second Batch/Tajikistan.xml</File>
+    <File md5="C75F493E6A12A2B459AD6E086B87ED25" import="0">Seventh Batch/Armenia.xml</File>
+    <File md5="3647A7F8827E8B9D3690267AA8967FC9" import="0">Seventh Batch/Belarus.xml</File>
+    <File md5="6F3700A0859E3A5F82497C5B4CE9113D" import="0">Seventh Batch/Grenada.xml</File>
+    <File md5="F32E8E9E0B323664BDBA517ECD929F8C" import="0">Seventh Batch/Kiribati.xml</File>
+    <File md5="6E1B24B44494ADE3C94B01621F5FCAD9" import="0">Seventh Batch/Kuwait.xml</File>
+    <File md5="1F7BA288049A4DC2D6F184307F4CD9E3" import="0">Seventh Batch/Laos.xml</File>
+    <File md5="814E7D7CF192F81A907DBD15DCC4ACBB" import="0">Seventh Batch/Lithuania.xml</File>
+    <File md5="20BF27CF88B7483C32C0BED2638D7993" import="0">Seventh Batch/Maldives.xml</File>
+    <File md5="A62AE181FD61BA011BEEA9FA079303CC" import="0">Seventh Batch/Mauritania.xml</File>
+    <File md5="BAC19FC308117C2566C365F515C3EBDF" import="0">Seventh Batch/Namibia.xml</File>
+    <File md5="34298C0E8626F2C640C303E8CA63ACB2" import="0">Seventh Batch/Niue.xml</File>
+    <File md5="8D582CEE1629E05C081DCFAAA697AC06" import="0">Seventh Batch/Olmec.xml</File>
+    <File md5="70128A1B96B37CD5FBC5D3ECB77D0E38" import="0">Seventh Batch/Phoenicia.xml</File>
+    <File md5="17E312AC864D204582346663DAEFCE4D" import="0">Seventh Batch/Samoa.xml</File>
+    <File md5="0B72DF31B4672AFE83D4B3842FBF87D0" import="0">Seventh Batch/SanMarino.xml</File>
+    <File md5="A44CC688BC8FBD705E94098AE61FE8F1" import="0">Seventh Batch/Serbia.xml</File>
+    <File md5="0F8818174F681E85B4B98051257C980F" import="0">Seventh Batch/SouthSudan.xml</File>
+    <File md5="D181BFEC054F0F3834B7AF285E1199C4" import="0">Seventh Batch/Tonga.xml</File>
+    <File md5="7CAC708E98A437BB8C77A79814BC5026" import="0">Seventh Batch/VaticanCity.xml</File>
+    <File md5="043EC75C4537C7C314609830AB56F07A" import="0">Seventh Batch/Zambia.xml</File>
+    <File md5="5FB7040FAC38DB46C30A7C7877F3CCCE" import="0">Sixth Batch/Angola.xml</File>
+    <File md5="E28C585A9EF05FB2252157E79CEC0D3E" import="0">Sixth Batch/CostaRica.xml</File>
+    <File md5="A7D9D8B16D108D55FC7A4987E77F14C6" import="0">Sixth Batch/Cyprus.xml</File>
+    <File md5="5CBAD9E06EB53FFC3B57A481F45F5001" import="0">Sixth Batch/DominicanRepublic.xml</File>
+    <File md5="672C938DC5E1EEE47D80E25EF1029FAB" import="0">Sixth Batch/ElSalvador.xml</File>
+    <File md5="B718F43DFAE350DE1D58E7CB8F551770" import="0">Sixth Batch/Genoa.xml</File>
+    <File md5="51648F593E0D5C7E5FC55FF61AD81222" import="0">Sixth Batch/Honduras.xml</File>
+    <File md5="DB1C6AD0726E985564B56C89BB807168" import="0">Sixth Batch/Micronesia.xml</File>
+    <File md5="85BEBD402F7DF8CA746F94F5B3F31B98" import="0">Sixth Batch/Milan.xml</File>
+    <File md5="8AF907868A80260C11A9EBC6C68D57B7" import="0">Sixth Batch/Niger.xml</File>
+    <File md5="9225FAF7F0E7B6079C44E0DB7BE27EAB" import="0">Sixth Batch/Nigeria.xml</File>
+    <File md5="80DD3A12207EB5BAC7C6051F2B8B2FDB" import="0">Sixth Batch/Panama.xml</File>
+    <File md5="C4EE05273636009AB912CDBB7E0A39DE" import="0">Sixth Batch/PrinceEdward.xml</File>
+    <File md5="3D64C9D11F354E477EA0E6831B6D623B" import="0">Sixth Batch/PuertoRico.xml</File>
+    <File md5="17C0A0D0295055F36E1C4A8B1FB9E554" import="0">Sixth Batch/Senegal.xml</File>
+    <File md5="8D46212D2D5409DB51DEC79A0BE02128" import="0">Sixth Batch/SierraLeone.xml</File>
+    <File md5="8784B1A701338789E0DEE9EF6096EF0E" import="0">Sixth Batch/Slovakia.xml</File>
+    <File md5="3BDCF56E3111439D73A2D7113074B067" import="0">Sixth Batch/SriLanka.xml</File>
+    <File md5="2BD8DFACA57C0F63950B290E9BBCDAE7" import="0">Sixth Batch/Tanzania.xml</File>
+    <File md5="9E984D119F07C1914E7C7DE28037D4CB" import="0">Sixth Batch/Togo.xml</File>
+    <File md5="51ADCE90D7A6A561E2B30B310D965C38" import="0">Sixth Batch/Turkmenistan.xml</File>
+    <File md5="2513D0A663F1D3BC389E42A4352F2E92" import="0">Sixth Batch/Tuva.xml</File>
+    <File md5="2142BD1CA132975DCFE2EAC0DD050158" import="0">Sixth Batch/Wallonia.xml</File>
+    <File md5="4D97A9AD9FFFF03A1C4B1F78F083F7BE" import="0">Sixth Batch/WesternSahara.xml</File>
+    <File md5="07E2E0EE04B4E74208D7B3DA1A030943" import="0">TenthBatch/ARAGON_CityNames.xml</File>
+    <File md5="0B65A49DBA063DBC1027FB4AD68F2634" import="0">TenthBatch/Circassia.xml</File>
+    <File md5="4CB5517CCA695814EFCB2DEC23CC94A8" import="0">TenthBatch/CIRCASSIA_CityNames.xml</File>
+    <File md5="FAB270DCCF9B49257D32FE1EE50D0D0E" import="0">TenthBatch/Comoros.xml</File>
+    <File md5="6245305F8224E21FB95126991DCCC857" import="0">TenthBatch/COMOROS_CityNames.xml</File>
+    <File md5="14F021997581D320C4C52CD04810E471" import="0">TenthBatch/Hmong.xml</File>
+    <File md5="ACB24B4D3F0558BAEB9D7EE365E8B805" import="0">TenthBatch/HMONG_CityNames.xml</File>
+    <File md5="91C18ACBA8AF8196505DDD3B29C4F60B" import="0">TenthBatch/Mixtec.xml</File>
+    <File md5="6B58A1EC143848D13660CFC42696321C" import="0">TenthBatch/MIXTEC_CityNames.xml</File>
+    <File md5="791DE3F804B5E5D1D6FE520FEB93A5E4" import="0">TenthBatch/Nubia.xml</File>
+    <File md5="DCA72FCF1C3A939E85E9F2DE75949729" import="0">TenthBatch/NUBIA_CityNames.xml</File>
+    <File md5="C7A10A3AA349BC1F66DC1D43BC6CE105" import="0">TenthBatch/Ossetia.xml</File>
+    <File md5="C8754ED38C05CF713F80305EB6E4A157" import="0">TenthBatch/OSSETIA_CityNames.xml</File>
+    <File md5="8BFD2D4256FB5A8848DD68CA791A6AE2" import="0">TenthBatch/Tartarstan.xml</File>
+    <File md5="BDFFFD2D408DBABF88D5F055622D0CAC" import="0">TenthBatch/TARTARSTAN_CityNames.xml</File>
+    <File md5="473B2B7FAFA7FDD64B66DEA396EE702C" import="0">TenthBatch/Wampanoag.xml</File>
+    <File md5="C07F27E93C0925F3109F0A269FAD866B" import="0">TenthBatch/WAMPANOAG_CityNames.xml</File>
+    <File md5="F048CD3B17E3AED8180FF1251DC19EDE" import="0">TenthBatch/Zapotec.xml</File>
+    <File md5="1131B0C9711A01F23C0C8268D4ACBA8C" import="0">TenthBatch/ZAPOTEC_CityNames.xml</File>
+    <File md5="080E71E20817736B25AC51E62F5A0C4B" import="0">Third Batch/Afghanistan.xml</File>
+    <File md5="6C88993E360A0A98A5848934CEEA0AF4" import="0">Third Batch/Argentina.xml</File>
+    <File md5="087F6F39583D0A51ED990C1552C346D4" import="0">Third Batch/Australia.xml</File>
+    <File md5="F1CA857D8BF40CDC42DBF974D5153E26" import="0">Third Batch/Catalonia.xml</File>
+    <File md5="8E3F9E5DDB3506C9E68733A24B8BB552" import="0">Third Batch/CzechRepublic.xml</File>
+    <File md5="2FBC2A3899B9A66949AD686F9C070D63" import="0">Third Batch/HongKong.xml</File>
+    <File md5="9C980120EE1474A6A8D8B284ACA56654" import="0">Third Batch/Iraq.xml</File>
+    <File md5="1B8589919102B8EF4140EF0719E93E38" import="0">Third Batch/Jamaica.xml</File>
+    <File md5="DF544DC6D17B0710078A1BA5BEBE3E75" import="0">Third Batch/Kazakhstan.xml</File>
+    <File md5="D5C7FC7FB15E582D2B6668888C986818" import="0">Third Batch/Kurdistan.xml</File>
+    <File md5="5F8C3D0AD15C0B3F6A0F7EB41D8C8A8C" import="0">Third Batch/Kyrgyzstan.xml</File>
+    <File md5="FAF27190B1A047BA350AF46C143DD54B" import="0">Third Batch/Libya.xml</File>
+    <File md5="365676F8F7BCA8AF00D828820052BDA2" import="0">Third Batch/Nepal.xml</File>
+    <File md5="EE0F7E20A20084C92299A26DA074C26C" import="0">Third Batch/Quebec.xml</File>
+    <File md5="15FBEBE4D064528FD296C23FADD39EA5" import="0">Third Batch/Singapore.xml</File>
+    <File md5="DACBCDC6FE2815DE785F2BF27B47909E" import="0">Third Batch/Syria.xml</File>
+    <File md5="DDD45E55B602987B01268A48AAC669D6" import="0">Third Batch/Tibet.xml</File>
+    <File md5="F92046A3163A3102097B23D58E035B1A" import="1">XML/Aborigine.xml</File>
+    <File md5="42BCAB39CA666ABA7ED1AA68548C6C21" import="1">XML/!Alaska.xml</File>
+    <File md5="01D83EE0C700102162DC634E80D10641" import="1">XML/Alberta.xml</File>
+    <File md5="F8B26C790D5D88DD62BA36810A277628" import="1">XML/Algeria.xml</File>
+    <File md5="BB0DD02B6AF48EAE714DC75DCB6907FE" import="1">XML/Andorra.xml</File>
+    <File md5="F8D6A690B4A4A890980174A30AC1565B" import="1">XML/Apache.xml</File>
+    <File md5="0A328CC7746B1D62E44498FE7C786421" import="1">XML/Babylonia.xml</File>
+    <File md5="8AA8D271B713E452D733B2903BA31C00" import="1">XML/Bahrain.xml</File>
+    <File md5="580B55D5198AC0ECB919B805AAD77715" import="1">XML/Bjarmaland.xml</File>
+    <File md5="9B52F4FF338EAF0A9F726B35D16A33A8" import="1">XML/BurkinaFaso.xml</File>
+    <File md5="81DD427A79B0363E6B7B6BA22873AC1E" import="1">XML/Burundi.xml</File>
+    <File md5="38987FDF8D775A7E1F8A9A4A0836D05E" import="1">XML/Cameroon.xml</File>
+    <File md5="B74D9A62A073A1EB98809398CF9DFA6C" import="1">XML/CentralAfricanRepublic.xml</File>
+    <File md5="6293625581AD3B8665AC4515A0DCABF4" import="1">XML/Chad.xml</File>
+    <File md5="3BEB4CFDC0EBC3BDD79BC1296ECC83E6" import="1">XML/Cuba.xml</File>
+    <File md5="148D2E4661530B270FA93D2734DAA1C2" import="1">XML/Delete_Defaults.xml</File>
+    <File md5="C5F1902BA5154AD8D68DDA0BA085B461" import="1">XML/Denendeh.xml</File>
+    <File md5="65FAB036E1AF04013F87045EDBEEEF38" import="1">XML/Djibouti.xml</File>
+    <File md5="5D1210104CD45792E32639A7058F063A" import="1">XML/Ecuador.xml</File>
+    <File md5="850FB7F33E8674341A1488DD098CE9A7" import="1">XML/EquatorialGuinea.xml</File>
+    <File md5="0A1048461F0DB26EEA9FC014A41A0796" import="1">XML/Eritrea.xml</File>
+    <File md5="49D3DB3E359FAB61855D12883E29BB84" import="1">XML/Fiji.xml</File>
+    <File md5="D0367F9A69680CD3807630657D48ABA5" import="1">XML/Gabon.xml</File>
+    <File md5="44F10BF3EE873B23E25FFC02C13FB2AD" import="1">XML/Gambia.xml</File>
+    <File md5="F4F03FD445B052E96F33D55967A8EF46" import="1">XML/Ghana.xml</File>
+    <File md5="9069397378E471C3F1737C3D91EEC5B8" import="1">XML/Guinea.xml</File>
+    <File md5="13FA68510F5322F3D0AFD930ACB97E44" import="1">XML/GuineaBissau.xml</File>
+    <File md5="6E85C5A7400D2A904593858720E8E393" import="1">XML/Lesotho.xml</File>
+    <File md5="B92CFA9DDDFD520BB423F682C4C5BCDA" import="1">XML/Liberia.xml</File>
+    <File md5="BF19440008918E1B74AB2B7D6550C9B6" import="0">XML/MajorCivColorChanges.xml</File>
+    <File md5="EA851531ACBD738C6CC48594156F8B18" import="1">XML/NativeAmericans.xml</File>
+    <File md5="19FA9BD95F5975F126DC0B012FB549DE" import="1">XML/Guyana.xml</File>
+    <File md5="443051BA79310993D9170609297A07D8" import="1">XML/Hawaii.xml</File>
+    <File md5="BF9153D4159BFB26B93C142AE06BACBA" import="1">XML/IvoryCoast.xml</File>
+    <File md5="CB299F6DBE755DFB1E14642D04C8E5A4" import="1">XML/Labrador.xml</File>
+    <File md5="CDBE43E0CD6FFABA085F6CD125090647" import="1">XML/Liechtenstein.xml</File>
+    <File md5="39461C50CFC91F554522413AD82014C1" import="1">XML/Luxembourg.xml</File>
+    <File md5="1FC7683B383BA00F1B74F3B52CB0A16F" import="1">XML/Manitoba.xml</File>
+    <File md5="949DC457757D7018CB2A4BBB32E97E3F" import="1">XML/MinorCivBehaviorChanges.xml</File>
+    <File md5="63495623C0E3EC868418BD0B6E5AB55D" import="1">XML/MinorCivsColorChanges.xml</File>
+    <File md5="FCA37E22C733B4ECD237B4596DFF2203" import="1">XML/NewBrunswick.xml</File>
+    <File md5="9A94016E267A92671B4B0BB97BDF11E9" import="1">XML/NewZealand.xml</File>
+    <File md5="3668091C5B601E37E33AF70C4F044E01" import="1">XML/Papua.xml</File>
+    <File md5="C7F42E13B11CACBB251B44F4D4B97A07" import="1">XML/Bahamas.xml</File>
+    <File md5="FCF29F5197AEE54237C1B1E9A25E9067" import="1">XML/Barbados.xml</File>
+    <File md5="8F2945272E3FDDDFF5EB460271312963" import="1">XML/!Basque.xml</File>
+    <File md5="855D083570C73897B67AD0BFF25E28D4" import="1">XML/Belize.xml</File>
+    <File md5="BDF811AE2AA2CE49550AA79B6B6B1A42" import="1">XML/Bhutan.xml</File>
+    <File md5="377C5080CC2D50369795FD4547881D03" import="1">XML/Bolivia.xml</File>
+    <File md5="F98FF58D3F7336D88104E117BAADD0C0" import="1">XML/Botswana.xml</File>
+    <File md5="EA7786824D3D9B3F8B63B5E013539553" import="1">XML/Brunei.xml</File>
+    <File md5="10AB331A80294809E18A2DE4C939E680" import="1">XML/Chiapas.xml</File>
+    <File md5="C3621234F03CB49B40AAF548D6B1F6A4" import="1">XML/Chile.xml</File>
+    <File md5="BAC56D68BAF979AA9D1EB747AFB96CF0" import="1">XML/Colombia.xml</File>
+    <File md5="79A98CC38144A1C4A6E68C252358A468" import="1">XML/ColorChanges.xml</File>
+    <File md5="AE3D71652F61754014495A2D3A1384E1" import="1">XML/!California.xml</File>
+    <File md5="63E7EAB4E19F5A20552F3768A511AEB6" import="1">XML/!Denmark.xml</File>
+    <File md5="16209629B18DEAB5565397E14C446435" import="1">XML/Georgia.xml</File>
+    <File md5="30A716411A2100A3814E6D772FB00E11" import="1">XML/Sioux.xml</File>
+    <File md5="E8194F2F324E7B1D4B462F0D8C18A287" import="1">XML/Greenland.xml</File>
+    <File md5="4748B0DD3DF1F98B06CDAA459EC95AB6" import="1">XML/Hopi.xml</File>
+    <File md5="120A1299A097F194DEE54CEE4CB6B03B" import="1">XML/Kashmir.xml</File>
+    <File md5="0442D1DAB8FB571466B7F5B9EE06886E" import="1">XML/Korea.xml</File>
+    <File md5="3BCE0BAFDC5C6F9606442330D241BEA5" import="1">XML/Newfoundland.xml</File>
+    <File md5="536305630CA5F555E54F555FB3F05F92" import="1">XML/NorthernIreland.xml</File>
+    <File md5="B506C59A901A76915898DD993167ECD2" import="1">XML/!Nova Scotia.xml</File>
+    <File md5="42205E46E98F5062CDC9F6583CCF70D0" import="1">XML/Iceland.xml</File>
+    <File md5="152B5034CE36526BDF1DBE0F1A2E68CB" import="1">XML/NameChanges.xml</File>
+    <File md5="DE42588DF12E125D931A7D837FA22612" import="1">XML/Nunavut.xml</File>
+    <File md5="FE2F155FF875B843B0C75CED3DC4038C" import="1">XML/Ontario.xml</File>
+    <File md5="962B92136101009EDC483C09036D8F91" import="1">XML/Pakistan.xml</File>
+    <File md5="3A641C917232FE1E69A9EFFD239762E7" import="1">XML/Palestine.xml</File>
+    <File md5="8D26C4FDD1EDDDE68695B9F62F861886" import="1">XML/Chechnya.xml</File>
+    <File md5="299CD51EE3EC7E19DCB59E23C05202AA" import="1">XML/Paraguay.xml</File>
+    <File md5="258C70224431E69DE8CD55B089CBF91D" import="1">XML/Patagonia.xml</File>
+    <File md5="5B76A3B73D494F053D9298468B0E2D1F" import="1">XML/Peru.xml</File>
+    <File md5="57202A770499BC10D3EEFA5101E9B689" import="1">XML/Puntland.xml</File>
+    <File md5="F1222B522DAE5EFAD87813ADCD5003CB" import="1">XML/RapaNui.xml</File>
+    <File md5="671885690ED647896F5DEC0F7399A22C" import="1">XML/Saskatchewan.xml</File>
+    <File md5="8CFE65EEFCE19DAC98C5F1D6C94BC565" import="1">XML/Scotland.xml</File>
+    <File md5="D044601887CC181089A8AEB0E3BB8287" import="1">XML/Sikkim.xml</File>
+    <File md5="E3F0CF9502DD29128F7D34827FCD56FC" import="0">XML/Sudan.xml</File>
+    <File md5="D8B193BA41BED89D42F576C2695FB821" import="0">XML/Sudan_CityNames_P1.xml</File>
+    <File md5="CB03D0373555EDCD7E9681D1D99AD8C9" import="1">XML/Suriname.xml</File>
+    <File md5="9EF97CDBF390BEB431FBED77434FD9D6" import="1">XML/Svalbard.xml</File>
+    <File md5="CE427F0D5FBF279EBF16E46D30CC18B7" import="1">XML/Swaziland.xml</File>
+    <File md5="C0CA8DA4C6FB8F41F24819C198C604E4" import="1">XML/Taiwan.xml</File>
+    <File md5="9B9289B4043AB5A64A35B1F6D0460C9A" import="1">XML/!Texas.xml</File>
+    <File md5="9765B1E2B00C0670E6C7E6FD2A939507" import="1">XML/Troy.xml</File>
+    <File md5="40E2BAD58AF1BA90925527396372944D" import="1">XML/Tunisia.xml</File>
+    <File md5="A477407329766E937B69E338ECCE4BCF" import="1">XML/Uruguay.xml</File>
+    <File md5="C7EF8D174A5E4506F7A2B0897E94F8E4" import="1">XML/Venezuela.xml</File>
+    <File md5="8BA58838112A45FFA179EA795EC0DE16" import="1">XML/!Vermont.xml</File>
+    <File md5="A55A660DDAF1DE054BCEA932099076AD" import="1">XML/Wales.xml</File>
+    <File md5="A247EFA2DECFCF18F561A264A043DAB0" import="1">XML/Waziristan.xml</File>
+    <File md5="4D6FD527A2CAA2867DBBC2AAD71EACD4" import="1">XML/Yucatan.xml</File>
+    <File md5="FE3C353D44B8ADD7E09EA4A38CE10596" import="1">XML/Yukon.xml</File>
+    <File md5="3DD17D4A4FF5825B0A2CDD3E648C6F4D" import="1">XML/Zimbabwe.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>NewTraits/NewMinorCivTraits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ColorChanges.xml</UpdateDatabase>
+      <UpdateDatabase>XML/!Alaska.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Algeria.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Andorra.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Bahamas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Barbados.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Belize.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Bhutan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Bolivia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Botswana.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Brunei.xml</UpdateDatabase>
+      <UpdateDatabase>XML/!California.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Chile.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Colombia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Georgia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Iceland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/!Nova Scotia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ontario.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Pakistan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Palestine.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NorthernIreland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Nunavut.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sioux.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Greenland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Chechnya.xml</UpdateDatabase>
+      <UpdateDatabase>XML/!Basque.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Kashmir.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Waziristan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/!Texas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/!Vermont.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Tunisia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Wales.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Apache.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Hopi.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Taiwan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Newfoundland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Papua.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewZealand.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Patagonia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Peru.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Suriname.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cuba.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Aborigine.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Bahrain.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Eritrea.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Fiji.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Liechtenstein.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Luxembourg.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Puntland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Swaziland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Bjarmaland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Svalbard.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Alberta.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Manitoba.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Saskatchewan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewBrunswick.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Yukon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Denendeh.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Labrador.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Zimbabwe.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IvoryCoast.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ecuador.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Guyana.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Paraguay.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Venezuela.xml</UpdateDatabase>
+      <UpdateDatabase>XML/MinorCivBehaviorChanges.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NativeAmericans.xml</UpdateDatabase>
+      <UpdateDatabase>XML/BurkinaFaso.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Burundi.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Cameroon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CentralAfricanRepublic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Chad.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Djibouti.xml</UpdateDatabase>
+      <UpdateDatabase>XML/EquatorialGuinea.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gabon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gambia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ghana.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Delete_Defaults.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Guinea.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sudan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sudan_CityNames_P1.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ALASKA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ALBERTA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ALGERIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ANDORRA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/APACHE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BASQUE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CALIFORNIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NOVA_SCOTIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TEXAS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/VERMONT_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ABORIGINE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BAHAMAS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BAHRAIN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BARBADOS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BELIZE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BHUTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BJARMALAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BOLIVIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BOTSWANA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BRUNEI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BURKINA_FASO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BURUNDI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CAMEROON_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CENTRAL_AFRICAN_REPUBLIC_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CHAD_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CHECHNYA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CHILE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/COLOMBIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CUBA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/DENENDEH_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/DJIBOUTI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ECUADOR_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/EQUATORIAL_GUINEA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ERITREA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/FIJI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GABON_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GAMBIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GEORGIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GHANA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIOUX_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GREENLAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GUINEA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GUINEA_BISSAU_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GUYANA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/HOPI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ICELAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/IVORY_COAST_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/KASHMIR_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LABRADOR_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LESOTHO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LIBERIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LIECHTENSTEIN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LUXEMBOURG_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MANITOBA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NEW_BRUNSWICK_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NEWFOUNDLAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NEW_ZEALAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NORTHERN_IRELAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NUNAVUT_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ONTARIO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PAKISTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PALESTINE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PAPUA_NEW_GUINEA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PARAGUAY_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PATAGONIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PERU_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PUNTLAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SASKATCHEWAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SURINAME_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SVALBARD_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SWAZILAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TAIWAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TUNISIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/URUGUAY_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/VENEZUELA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/WALES_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/WAZIRISTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/YUKON_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ZIMBABWE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ALGONQUIN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ARAPAHO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BLACKFOOT_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CHICKASAW_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CHIPPEWA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CHOCTAW_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/HURON_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LENAPE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NAVAJO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PAWNEE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/POWHATAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PUEBLO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SHAWNEE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TOHONO_OODHAM_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CROW_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>XML/MajorCivColorChanges.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ABU_DHABI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/AZERBAIJAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CASCADIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/DUBAI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/FINLAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/HAITI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ISRAEL_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/KENYA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MADAGASCAR_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NORTH_KOREA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NORWAY_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/RWANDA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SOMALIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SOUTH_AFRICA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SWITZERLAND_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TAJIKISTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/AbuDhabi.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Azerbaijan.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Cascadia.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Dubai.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Finland.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Haiti.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Israel.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Kenya.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Madagascar.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/NorthKorea.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Norway.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Rwanda.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Somalia.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/SouthAfrica.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Switzerland.xml</UpdateDatabase>
+      <UpdateDatabase>Second Batch/Tajikistan.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/AFGHANISTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ARGENTINA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/AUSTRALIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CATALONIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CZECH_REPUBLIC_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIRREALISMO_HONG_KONG_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/JAMAICA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/KAZAKHSTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/KURDISTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/KYRGYZSTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LIBYA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NEPAL_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/QUEBEC_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIRREALISMO_SINGAPORE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SYRIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TIBET_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Afghanistan.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Argentina.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Australia.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Catalonia.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/CzechRepublic.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/HongKong.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Jamaica.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Kazakhstan.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Kurdistan.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Kyrgyzstan.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Libya.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Nepal.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Quebec.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Singapore.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Syria.xml</UpdateDatabase>
+      <UpdateDatabase>Third Batch/Tibet.xml</UpdateDatabase>
+      <UpdateDatabase>Fourth Batch/Ostrogoth.xml</UpdateDatabase>
+      <UpdateDatabase>Fourth Batch/Vandal.xml</UpdateDatabase>
+      <UpdateDatabase>Fourth Batch/Visigoth.xml</UpdateDatabase>
+      <UpdateDatabase>Forth Batch Stray CityNames/OSTROGOTH_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Forth Batch Stray CityNames/VANDAL_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Forth Batch Stray CityNames/VISIGOTH_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Fourth Batch/CrimeanGoth.xml</UpdateDatabase>
+      <UpdateDatabase>Fourth Batch/Lombard.xml</UpdateDatabase>
+      <UpdateDatabase>Forth Batch Stray CityNames/CRIMEAN_GOTH_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Forth Batch Stray CityNames/LOMBARD_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Bangladesh.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Bulgaria.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Cahokia.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Florence.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Guatemala.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Jordan.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Lebanon.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Macedonia.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Malaysia.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Mozambique.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Nicaragua.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Oman.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Qatar.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Romania.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Tasmania.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/ThePhilippines.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/TheUkraine.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Uganda.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Uzbekistan.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Vietnam.xml</UpdateDatabase>
+      <UpdateDatabase>Fifth Batch/Yemen.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BANGLADESH_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BULGARIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CAHOKIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIRREALISMO_FLORENCE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GUATEMALA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/JORDAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LEBANON_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MACEDONIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MALAYSIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MOZAMBIQUE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NICARAGUA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/OMAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/QATAR_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ROMANIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TASMANIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/THE_PHILIPPINES_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/UKRAINE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/UGANDA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/UZBEKISTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/VIETNAM_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/YEMEN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ANGOLA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/COSTA_RICA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CYPRUS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/DOMINICAN_REPUBLIC_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/EL_SALVADOR_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIRREALISMO_GENOA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/HONDURAS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MICRONESIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIRREALISMO_MILAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NIGER_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NIGERIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PANAMA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PRINCE_EDWARD_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PUERTO_RICO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SENEGAL_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIERRA_LEONE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SLOVAKIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SRI_LANKA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TANZANIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TOGO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TURKMENISTAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TUVA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/WALLONIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Armenia.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Belarus.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Grenada.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Kiribati.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Kuwait.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Laos.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Lithuania.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Maldives.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Mauritania.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Namibia.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Niue.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Olmec.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Samoa.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/SanMarino.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Serbia.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/SouthSudan.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Tonga.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/VaticanCity.xml</UpdateDatabase>
+      <UpdateDatabase>Seventh Batch/Zambia.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ARMENIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BELARUS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/GRENADA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/KIRIBATI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/KUWAIT_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LAOS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LITHUANIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MALDIVES_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MAURITANIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NAMIBIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NIUE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/OLMEC_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SAMOA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SAN_MARINO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SERBIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SOUTH_SUDAN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TONGA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SIRREALISMO_VATICAN_CITY_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ZAMBIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Albania.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/AntiguaAndBarbuda.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/BosniaAndHerzegovina.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Croatia.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Dominica.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/EastTimor.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Estonia.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/FrenchGuiana.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Latvia.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Malawi.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Malta.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Mauritius.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Moldova.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Nauru.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Palau.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/SaoTomeAndPrincipe.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Seychelles.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Slovenia.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/TrinidadAndTobago.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Tuvalu.xml</UpdateDatabase>
+      <UpdateDatabase>Eighth Batch/Vanuatu.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ALBANIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ANTIGUA_AND_BARBUDA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/BOSNIA_AND_HERZEGOVINA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/CROATIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/DOMINICA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/EAST_TIMOR_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/ESTONIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/FRENCH_GUIANA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/LATVIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MALAWI_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MALTA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MAURITIUS_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/MOLDOVA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/NAURU_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/PALAU_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SAO_TOME_AND_PRINCIPE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SEYCHELLES_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/SLOVENIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TRINIDAD_AND_TOBAGO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/TUVALU_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>CityNames/VANUATU_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Angola.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/CostaRica.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Cyprus.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/DominicanRepublic.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/ElSalvador.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Genoa.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Honduras.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Micronesia.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Milan.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Niger.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Nigeria.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Panama.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/PrinceEdward.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/PuertoRico.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Senegal.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/SierraLeone.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Slovakia.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/SriLanka.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Tanzania.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Togo.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Turkmenistan.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Tuva.xml</UpdateDatabase>
+      <UpdateDatabase>Sixth Batch/Wallonia.xml</UpdateDatabase>
+      <UpdateDatabase>NewTraits/Preserve Improvement/GameInfo/IconTextureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>NewTraits/Preserve Improvement/XML/PreserveBuild.xml</UpdateDatabase>
+      <UpdateDatabase>NewTraits/Preserve Improvement/XML/PreserveImprovement.xml</UpdateDatabase>
+      <UpdateDatabase>NewTraits/Preserve Improvement/XML/WorkerUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lesotho.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Uruguay.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/Abkhazia.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/ABKHAZIA_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/Cherokee.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/CHEROKEE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/Cree.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/CREE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/Kosovo.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/KOSOVO_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/NezPerce.xml</UpdateDatabase>
+      <UpdateDatabase>Ninth Batch/NEZPERCE_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>Delete CityName Dupes/GetOuttaHereDupes.xml</UpdateDatabase>
+      <UpdateDatabase>AuxCivs for WorldMap/Benin.xml</UpdateDatabase>
+      <UpdateDatabase>AuxCivs for WorldMap/BENIN_CityNames.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GuineaBissau.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

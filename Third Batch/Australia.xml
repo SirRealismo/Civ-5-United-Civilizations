@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2013 8:06:59 PM -->
+<GameData>
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_AUSTRALIA</Type>
+			<Description>TXT_KEY_CITYSTATE_AUSTRALIA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_AUSTRALIA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_AUSTRALIA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_AUSTRALIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_POLYNESIAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUSTRALIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_AUSTRALIA</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUSTRALIA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUSTRALIA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUSTRALIA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUSTRALIA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CITYSTATE_AUSTRALIA_ADJ">
+			<Text>Australian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_AUSTRALIA_PEDIA">
+			<Text>No entry available! Sorry.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

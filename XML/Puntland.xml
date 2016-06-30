@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2010 2:52:04 PM -->
+<GameData>
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_PUNTLAND</Type>
+			<Description>TXT_KEY_CITYSTATE_PUNTLAND</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PUNTLAND</ShortDescription>
+			<Adjective>Puntian</Adjective>
+			<Civilopedia>No info</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUNTLAND</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_PUNTLAND</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_PUNTLAND_ADJ">
+			<Text>Puntland</Text>
+		</Row>
+	</Language_en_US>
+	
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUNTLAND</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUNTLAND</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUNTLAND</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUNTLAND</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUNTLAND</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+</GameData>

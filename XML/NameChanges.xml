@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2013 3:58:44 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Set Text="Slovakia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BRATISLAVA"/>
+		</Update>
+		<Update>
+			<Set Text="Hungary"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BUDAPEST"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="Switzerland"/>
+			<Where Tag="TXT_KEY_CITYSTATE_GENEVA"/>
+		</Update>
+		<Update>
+			<Set Text="Swiss"/>
+			<Where Tag="TXT_KEY_CITYSTATE_GENEVA_ADJ"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="Latvia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_RIGA"/>
+		</Update>
+	
+		<Update>
+			<Set Text="Croatia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_RAGUSA"/>
+		</Update>
+		<Update>
+			<Set Text="Quebec"/>
+			<Where Tag="TXT_KEY_CITYSTATE_QUEBEC_CITY"/>
+		</Update>
+		<Update>
+			<Set Text="Quebecois"/>
+			<Where Tag="TXT_KEY_CITYSTATE_QUEBEC_CITY_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Romania"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BUCHAREST"/>
+		</Update>
+		<Update>
+			<Set Text="Australia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SYDNEY"/>
+		</Update>
+		<Update>
+			<Set Text="Australia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SYDNEY_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Serbia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BELGRADE"/>
+		</Update>
+		<Update>
+			<Set Text="Belgium"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BRUSSELS"/>
+		</Update>
+		<Update>
+			<Set Text="Nepal"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KATHMANDU"/>
+		</Update>
+		<Update>
+			<Set Text="Nepalese"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KATHMANDU_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Vietnam"/>
+			<Where Tag="TXT_KEY_CITYSTATE_HANOI"/>
+		</Update>
+		<Update>
+			<Set Text="Vietnamese"/>
+			<Where Tag="TXT_KEY_CITYSTATE_HANOI_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Tibet"/>
+			<Where Tag="TXT_KEY_CITYSTATE_LHASA"/>
+		</Update>
+		<Update>
+			<Set Text="Tibetan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_LHASA_ADJ"/>
+		</Update>
+		
+		<Update>
+			<Set Text="Kazakhstan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ALMATY"/>
+		</Update>
+		<Update>
+			<Set Text="Kazakh"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ALMATY_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Malaysia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KUALA_LUMPUR"/>
+		</Update>
+		<Update>
+			<Set Text="Panama"/>
+			<Where Tag="TXT_KEY_CITYSTATE_PANAMA_CITY"/>
+		</Update>
+		<Update>
+			<Set Text="Panamanian"/>
+			<Where Tag="TXT_KEY_CITYSTATE_PANAMA_CITY_ADJ"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="South Africa"/>
+			<Where Tag="TXT_KEY_CITYSTATE_CAPE_TOWN"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="Lebanon"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SIDON"/>
+		</Update>
+		<Update>
+			<Set Text="Lebanese"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SIDON_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Kurdistan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_TYRE"/>
+		</Update>
+		<Update>
+			<Set Text="Kurdish"/>
+			<Where Tag="TXT_KEY_CITYSTATE_TYRE_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Belarus"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ANTWERP"/>
+		</Update>
+		<Update>
+			<Set Text="Sri Lanka"/>
+			<Where Tag="TXT_KEY_CITYSTATE_COLOMBO"/>
+		</Update>
+		<Update>
+			<Set Text="Dubai"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ORMUS"/>
+		</Update>
+		<Update>
+			<Set Text="Dubai"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ORMUS_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Olmec"/>
+			<Where Tag="TXT_KEY_CITYSTATE_LA_VENTA"/>
+		</Update>
+		<Update>
+			<Set Text="Olmec"/>
+			<Where Tag="TXT_KEY_CITYSTATE_LA_VENTA_ADJ"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="Cascadia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_VANCOUVER"/>
+		</Update>
+		<Update>
+			<Set Text="Cascadian"/>
+			<Where Tag="TXT_KEY_CITYSTATE_VANCOUVER_ADJ"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="The Philippines"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MANILA"/>
+		</Update>
+		<Update>
+			<Set Text="Filipino"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MANILA_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Madagascar"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ANTANANARIVO"/>
+		</Update>
+		<Update>
+			<Set Text="Catalonia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MILAN"/>
+		</Update>
+		<Update>
+			<Set Text="Catalonia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MILAN_ADJ"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="Kenya"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MOMBASA"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="Czech Republic"/>
+			<Where Tag="TXT_KEY_CITYSTATE_PRAGUE"/>
+		</Update>
+		<Update>
+			<Set Text="Malta"/>
+			<Where Tag="TXT_KEY_CITYSTATE_VALLETTA"/>
+		</Update>
+		<Update>
+			<Set Text="Malta"/>
+			<Where Tag="TXT_KEY_CITYSTATE_VALLETTA_ADJ"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="Finland"/>
+			<Where Tag="TXT_KEY_CITYSTATE_WITTENBERG"/>
+		</Update>
+		<Update>
+			<Set Text="Finnish"/>
+			<Where Tag="TXT_KEY_CITYSTATE_WITTENBERG_ADJ"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="Armenia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_YEREVAN"/>
+		</Update>
+		<Update>
+			<Set Text="Tanzania"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ZANZIBAR"/>
+		</Update>
+		<Update>
+			<Set Text="Tanzania"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ZANZIBAR_ADJ"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="Norway"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ZURICH_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Norway"/>
+			<Where Tag="TXT_KEY_CITYSTATE_ZURICH"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="Uzbekistan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SAMARKAND_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Uzbekistan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SAMARKAND"/>
+		</Update>
+		<Update>
+			<Set Text="Bangladesh"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MALACCA_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Bangladesh"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MALACCA"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="Somalian"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MOGADISHU_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Somalia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MOGADISHU"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="Phoenicia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BYBLOS_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Phoenicia"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BYBLOS"/>
+		</Update>
+		<Update>
+			<Set Text="Tuva"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KYZYL_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Tuva"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KYZYL"/>
+		</Update>
+		<!--
+		<Update>
+			<Set Text="Nigeria"/>
+			<Where Tag="TXT_KEY_CITYSTATE_IFE_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Nigeria"/>
+			<Where Tag="TXT_KEY_CITYSTATE_IFE"/>
+		</Update>
+		-->
+		<Update>
+			<Set Text="Ukraine"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KIEV_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Ukraine"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KIEV"/>
+		</Update>
+		<Update>
+			<Set Text="Argentina"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BUENOS_AIRES_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Argentina"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BUENOS_AIRES"/>
+		</Update>
+		<Update>
+			<Set Text="Angola"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MBANZA_KONGO_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Angola"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MBANZA_KONGO"/>
+		</Update>
+		<Update>
+			<Set Text="Afghan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KABUL_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Afghanistan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_KABUL"/>
+		</Update>
+		<Update>
+			<Set Text="Bulgarian"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SOFIA_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Bulgaria"/>
+			<Where Tag="TXT_KEY_CITYSTATE_SOFIA"/>
+		</Update>
+		<Update>
+			<Set Text="Abu Dhabi"/>
+			<Where Tag="TXT_KEY_CITYSTATE_UR_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Abu Dhabi"/>
+			<Where Tag="TXT_KEY_CITYSTATE_UR"/>
+		</Update>
+		<Update>
+			<Set Text="Tasmania"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MELBOURNE_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Tasmania"/>
+			<Where Tag="TXT_KEY_CITYSTATE_MELBOURNE"/>
+		</Update>
+		<Update>
+			<Set Text="Israeli"/>
+			<Where Tag="TXT_KEY_CITYSTATE_JERUSALEM_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Israel"/>
+			<Where Tag="TXT_KEY_CITYSTATE_JERUSALEM"/>
+		</Update>
+		
+		
+	</Language_en_US>
+  
+</GameData>

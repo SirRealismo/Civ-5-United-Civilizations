@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_CYRENAICA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CYRENAICA_CITYTHREE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CYRENAICA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CYRENAICA_CAPITAL</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CYRENAICA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CYRENAICA_CITYTWO</CityName>
+		</Row>
+		<Delete CityName="TXT_KEY_CITYSTATE_CYRENAICA" />
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_CYRENAICA_CAPITAL">
+			<Text>Cyrene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CYRENAICA_CITYTHREE">
+			<Text>*Bayda*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CYRENAICA_CITYTWO">
+			<Text>Euesperides</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CYRENAICA">
+			<Text>Cyrenaica</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

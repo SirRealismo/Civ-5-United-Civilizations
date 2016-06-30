@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2013 8:06:59 PM -->
+<GameData>
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_NOVA_SCOTIA</Type>
+			<Description>TXT_KEY_CITYSTATE_NOVA_SCOTIA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_NOVA_SCOTIA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_NOVA_SCOTIA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_NOVA_SCOTIA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DARK_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_NOVA_SCOTIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_NOVA_SCOTIA</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_NOVA_SCOTIA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NOVA_SCOTIA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NOVA_SCOTIA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NOVA_SCOTIA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_NOVA_SCOTIA_ADJ">
+			<Text>Nova Scotian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_NOVA_SCOTIA_PEDIA">
+			<Text>No entry available! Sorry.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

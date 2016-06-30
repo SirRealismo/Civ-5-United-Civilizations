@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/5/2012 10:08:33 PM -->
+<GameData>
+	<!-- TODO: Insert table creation example here. -->
+
+	<!-- TODO: Insert table data example here.-->
+
+	<!-- Enter your Game Data here. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_HURON</Type>
+			<Description>TXT_KEY_CITYSTATE_HURON</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HURON</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HURON_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HURON_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_CHOCTAW</Type>
+			<Description>TXT_KEY_CITYSTATE_CHOCTAW</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_CHOCTAW</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_CHOCTAW_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_CHOCTAW_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		
+		<Row>
+			<Type>MINOR_CIV_SHAWNEE</Type>
+			<Description>TXT_KEY_CITYSTATE_SHAWNEE</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_SHAWNEE</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_SHAWNEE_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_SHAWNEE_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_PINK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_PUEBLO</Type>
+			<Description>TXT_KEY_CITYSTATE_PUEBLO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PUEBLO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_PUEBLO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_PUEBLO_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_LENAPE</Type>
+			<Description>TXT_KEY_CITYSTATE_LENAPE</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_LENAPE</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_LENAPE_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_LENAPE_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BROWN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_BLACKFOOT</Type>
+			<Description>TXT_KEY_CITYSTATE_BLACKFOOT</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BLACKFOOT</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BLACKFOOT_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_BLACKFOOT_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BLACK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ARAPAHO</Type>
+			<Description>TXT_KEY_CITYSTATE_ARAPAHO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ARAPAHO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ARAPAHO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ARAPAHO_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DARK_RED</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_PAWNEE</Type>
+			<Description>TXT_KEY_CITYSTATE_PAWNEE</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PAWNEE</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_PAWNEE_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_PAWNEE_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DARK_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_POWHATAN</Type>
+			<Description>TXT_KEY_CITYSTATE_POWHATAN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_POWHATAN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_POWHATAN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_POWHATAN_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ALGONQUIN</Type>
+			<Description>TXT_KEY_CITYSTATE_ALGONQUIN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ALGONQUIN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ALGONQUIN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ALGONQUIN_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_CHICKASAW</Type>
+			<Description>TXT_KEY_CITYSTATE_CHICKASAW</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_CHICKASAW</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_CHICKASAW_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_CHICKASAW_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_NAVAJO</Type>
+			<Description>TXT_KEY_CITYSTATE_NAVAJO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_NAVAJO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_NAVAJO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_NAVAJO_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_CROW</Type>
+			<Description>TXT_KEY_CITYSTATE_CROW</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_CROW</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_CROW_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_CROW_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BLACK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_CHIPPEWA</Type>
+			<Description>TXT_KEY_CITYSTATE_CHIPPEWA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_CHIPPEWA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_CHIPPEWA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_CHIPPEWA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GOLDENROD</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_TOHONO_OODHAM</Type>
+			<Description>TXT_KEY_CITYSTATE_TOHONO_OODHAM</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_TOHONO_OODHAM</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_TOHONO_OODHAM_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_TOHONO_OODHAM_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BROWN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_INDIGENOUS</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	
+	<Language_en_US>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_HURON_ADJ">
+			<Text>Huron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HURON_TEXT">
+			<Text>The Wyandot (Wendat in their Iroquoian language), also called Huron, are indigenous peoples of North America. They traditionally spoke Wendat. The pre-contact people formed by the 15th century in the area of the north shore of present-day Lake Ontario, before migrating to Georgian Bay. It was in their later location that they first encountered the French explorer Samuel de Champlain in 1615.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_CHOCTAW_ADJ">
+			<Text>Choctaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CHOCTAW_TEXT">
+			<Text>The Choctaw (alternatively spelled Chahta, Chactas, Chato, Tchakta, Chocktaw, and Chactaw) are a Native American people originally from the Southeastern United States (Mississippi, Florida, Alabama, and Louisiana). The Choctaw language belongs to the Muskogean linguistic group. The Choctaw are descendants of the Hopewellian people and Mississippian culture, who lived throughout the east of the Mississippi River valley and its tributaries.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_SHAWNEE_ADJ">
+			<Text>Shawnee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SHAWNEE_TEXT">
+			<Text>The Shawnee are an Algonquian-speaking people native to North America. Historically they inhabited the areas of present-day Ohio, Virginia, West Virginia, Western Maryland, Kentucky, Indiana, and Pennsylvania in the United States.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_PUEBLO_ADJ">
+			<Text>Pueblo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PUEBLO_TEXT">
+			<Text>The Pueblo people are a Native American people in the Southwestern United States. Their traditional economy is based on agriculture and trade. When first encountered by the Spanish in the 16th century, they were living in villages that the Spanish called pueblos, meaning "towns". Of the 21 Pueblos that exist today, Taos, Acoma, Zuni, and Hopi are the best-known. The main Pueblos are located primarily in New Mexico and Arizona.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_LENAPE_ADJ">
+			<Text>Lenape</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LENAPE_TEXT">
+			<Text>The Lenape are Native American/Native Canadian people in Canada and the United States. They are also called Delaware Indians after their historic territory along the Delaware River. As a result of disruption following the American Revolutionary War and later Indian removals from the eastern United States, the main groups now live in Ontario (Canada), Wisconsin, and Oklahoma.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_BLACKFOOT_ADJ">
+			<Text>Blackfoot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BLACKFOOT_TEXT">
+			<Text>The Blackfoot Confederacy or Niitsítapi (meaning "original people") is the collective name of three First Nations bands in Alberta, Canada and one Native American tribe in Montana, United States. Historically, the member peoples of the Confederacy were nomadic bison hunters, who ranged across large areas of the northern Great Plains of Western North America, specifically the semi-arid short-grass prairie ecological region.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_ARAPAHO_ADJ">
+			<Text>Arapaho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ARAPAHO_TEXT">
+			<Text>The Arapaho are a tribe of Native Americans historically living on the eastern plains of Colorado and Wyoming. They were close allies of the Cheyenne tribe and loosely aligned with the Sioux. Arapaho is an Algonquian language closely related to Gros Ventre, whose people are seen as an early offshoot of the Arapaho.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_PAWNEE_ADJ">
+			<Text>Pawnee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PAWNEE_TEXT">
+			<Text>The Pawnee people are a Caddoan-speaking Native American tribe. They are federally recognized as the Pawnee Nation of Oklahoma and have four confederated bands: the Chaui, Kitkehakhi, Pitahawirata, and Skidi. Historically, the Pawnee lived along outlying tributaries of the Missouri River: the Platte, Loup and Republican rivers in present-day Nebraska and in northern Kansas. They lived in permanent earth lodge villages where they farmed. They left the villages on seasonal buffalo hunts, using tipis while traveling.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_POWHATAN_ADJ">
+			<Text>Powhatan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POWHATAN_TEXT">
+			<Text>The Powhatan (also spelled Powatan and Powhaten) is the name of a Virginia Indian confederation of tribes. It may also refer to the leader of those tribes, commonly referred to as Chief Powhatan. It is estimated that there were about 14,000–21,000 Powhatan people in eastern Virginia when the English settled Jamestown in 1607. They were also known as Virginia Algonquians, as they spoke an eastern-Algonquian language known as Powhatan or Virginia Algonquin.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_ALGONQUIN_ADJ">
+			<Text>Algonquin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ALGONQUIN_TEXT">
+			<Text>The Algonquins are Native Canadian inhabitants of North America who speak the Algonquin language, a divergent dialect of the Ojibwe language, which is part of the Algonquian language family. Culturally and linguistically, they are closely related to the Odawa and Ojibwe, with whom they form the larger Anicinàpe (Anishinaabe) grouping. The Algonquin people call themselves Omàmiwinini (plural: Omàmiwininiwak) or the more generalised name of Anicinàpe. Nine Algonquin bands live in Quebec, with one in Ontario</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CIV5_CHICKASAW_TEXT">
+			<Text>The Chickasaw are an indigenous people of the Southeastern Woodlands. Their traditional territory was in the Southeastern United States of Mississippi, Alabama, Tennessee. They are of the Muskogean language family and are federally recognized as the Chickasaw Nation.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_NAVAJO_ADJ">
+			<Text>Navajo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NAVAJO_TEXT">
+			<Text>The Navajo are Native American inhabitants of the Southwestern United States in Arizona and New Mexico. Traditionally, like other Apacheans, the Navajo were semi-nomadic from the 16th through the 20th centuries. Their extended kinship groups had seasonal dwelling areas to accommodate livestock, agriculture and gathering practices. The Navajo are speakers of a Na-Dené Southern Athabaskan languages known as Diné bizaad ('People's language').</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_CROW_ADJ">
+			<Text>Crow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CROW_TEXT">
+			<Text>The Crow, called the Apsáalooke in their own Siouan language, or variants including Absaroka, are Native Americans, who in historical times lived in the Yellowstone River valley, which extends from present-day Wyoming, through Montana and into North Dakota, where it joins the Missouri River.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_CHIPPEWA_ADJ">
+			<Text>Chippewa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CHIPPEWA_TEXT">
+			<Text>The Ojibwe (also Ojibwa or Ojibway) or Chippewa (also Chippeway) are the largest groups of Native Americans–First Nations north of Mexico. They are divided between Canada and the United States. The Ojibwe peoples are a major component group of the Anishinaabe-speaking peoples, a branch of the Algonquian language family which includes the Algonquin, Nipissing, Oji-Cree, Odawa and the Potawatomi.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITYSTATE_TOHONO_OODHAM_ADJ">
+			<Text>Tohono O'odham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TOHONO_OODHAM_TEXT">
+			<Text>The Tohono O'odham are a group of Native American people who reside primarily in the Sonoran Desert of the southeastern Arizona and northwest Mexico. "Tohono O'odham" means "Desert People." The Tohono O'odham share linguistic and cultural roots with the closely related Akimel O'odham (People of the River), whose lands lie just south of Phoenix, along the lower Gila River.</Text>
+		</Row>
+	</Language_en_US>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_HURON</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HURON</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HURON</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HURON</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HURON</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHOCTAW</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHOCTAW</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHOCTAW</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHOCTAW</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SHAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SHAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SHAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SHAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SHAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SHAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SHAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUEBLO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUEBLO</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUEBLO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUEBLO</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PUEBLO</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LENAPE</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LENAPE</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LENAPE</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LENAPE</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LENAPE</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BLACKFOOT</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BLACKFOOT</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BLACKFOOT</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BLACKFOOT</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ARAPAHO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ARAPAHO</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ARAPAHO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ARAPAHO</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PAWNEE</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_POWHATAN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_POWHATAN</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_POWHATAN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_POWHATAN</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_POWHATAN</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ALGONQUIN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ALGONQUIN</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ALGONQUIN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ALGONQUIN</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ALGONQUIN</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHICKASAW</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHICKASAW</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHICKASAW</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHICKASAW</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NAVAJO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NAVAJO</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NAVAJO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_NAVAJO</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CROW</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CROW</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CROW</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CROW</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CROW</MinorCivType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CROW</MinorCivType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CROW</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHIPPEWA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHIPPEWA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHIPPEWA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHIPPEWA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CHIPPEWA</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOHONO_OODHAM</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOHONO_OODHAM</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOHONO_OODHAM</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOHONO_OODHAM</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOHONO_OODHAM</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+</GameData>

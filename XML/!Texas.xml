@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2013 8:06:59 PM -->
+<GameData>
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_TEXAS</Type>
+			<Description>TXT_KEY_CITYSTATE_TEXAS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_TEXAS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_TEXAS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_TEXAS_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_RED</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_PRODUCTIVE</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_TEXAS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_TEXAS</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_TEXAS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TEXAS</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TEXAS</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TEXAS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CITYSTATE_TEXAS_ADJ">
+			<Text>Texan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TEXAS_PEDIA">
+			<Text>No entry available! Sorry.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
